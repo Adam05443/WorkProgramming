@@ -30,7 +30,7 @@ def generate_rf_profile_b(floor_num,bld_abbr):
 	"""
 	rf_profile_b = []
 	for y in floor_num:
-		rf_profile_b.append("%s-floor-%s-rf-802.11b/g" %(bld_abbr,y))
+		rf_profile_b.append("%s-floor-%s-rf-802.11bg" %(bld_abbr,y))
 	return rf_profile_b
 
 	
@@ -48,9 +48,11 @@ West_Floors = build_floors(1,5)
 Middle_Floors = build_floors(1,5)
 Education_Floors = build_floors(2,2)
 
+#creates two empty lists
 rf_profile_list_a = []
 rf_profile_list_b = []
 
+#passes the building abbr and the floor number into the generate_rf_profile() 
 rf_profile_list_a.append(generate_rf_profile_a(McClure_Floors,bld_abbr[0]))
 rf_profile_list_a.append(generate_rf_profile_a(Patrick_Floors,bld_abbr[1]))
 rf_profile_list_a.append(generate_rf_profile_a(Smith_Floors,bld_abbr[2]))
@@ -64,7 +66,7 @@ rf_profile_list_a.append(generate_rf_profile_a(West_Floors,bld_abbr[9]))
 rf_profile_list_a.append(generate_rf_profile_a(Middle_Floors,bld_abbr[10]))
 rf_profile_list_a.append(generate_rf_profile_a(Education_Floors,bld_abbr[11]))
 
-
+#passes the building abbr and the floor number into the generate_rf_profile() 
 rf_profile_list_b.append(generate_rf_profile_b(McClure_Floors,bld_abbr[0]))
 rf_profile_list_b.append(generate_rf_profile_b(Patrick_Floors,bld_abbr[1]))
 rf_profile_list_b.append(generate_rf_profile_b(Smith_Floors,bld_abbr[2]))
@@ -78,12 +80,10 @@ rf_profile_list_b.append(generate_rf_profile_b(West_Floors,bld_abbr[9]))
 rf_profile_list_b.append(generate_rf_profile_b(Middle_Floors,bld_abbr[10]))
 rf_profile_list_b.append(generate_rf_profile_b(Education_Floors,bld_abbr[11]))
 
-#print (rf_profile_list_a)
-
-#print (rf_profile_list_b)
-
+#some random stuff I stole from the Internet to strip out some formatting
 translation_table = dict.fromkeys(map(ord, '[]'), None)
 
+#this just strips off the [] and dumps everything back into a list
 clean_a = []
 for line in rf_profile_list_a:
 	for line2 in line:
@@ -93,5 +93,33 @@ for line in rf_profile_list_b:
 	for line2 in line:
 		clean_b.append(line2.translate(translation_table))
 
-print (clean_a)
-print (clean_b)
+#iterates back through the clean list and generates this cli code 
+for i in clean_a:
+	print("config rf-profile create 802.11a %s" %(i))
+	print("config rf-profile description %s" %(i))
+	print("config rf-profile data-rates 802.11a mandatory 12 %s" %(i))
+	print("config rf-profile data-rates 802.11a mandatory 24 %s" %(i))
+	print("config rf-profile data-rates 802.11a disabled 6 %s" %(i))
+	print("config rf-profile data-rates 802.11a disabled 9 %s" %(i))
+	print("config rf-profile data-rates 802.11a supported 18 %s" %(i))
+	print("config rf-profile data-rates 802.11a supported 36 %s" %(i))
+	print("config rf-profile data-rates 802.11a supported 48 %s" %(i))
+	print("config rf-profile data-rates 802.11a supported 54 %s" %(i))
+	print("config rf-profile tx-power-min 10 %s" %(i))
+	print("config rf-profile coverage data -70  %s" %(i))
+	print("config rf-profile coverage voice -65  %s" %(i))
+	
+for i in clean_b:
+	print("config rf-profile create 802.11a %s" %(i))
+	print("config rf-profile description %s" %(i))
+	print("config rf-profile data-rates 802.11a mandatory 12 %s" %(i))
+	print("config rf-profile data-rates 802.11a mandatory 24 %s" %(i))
+	print("config rf-profile data-rates 802.11a disabled 6 %s" %(i))
+	print("config rf-profile data-rates 802.11a disabled 9 %s" %(i))
+	print("config rf-profile data-rates 802.11a supported 18 %s" %(i))
+	print("config rf-profile data-rates 802.11a supported 36 %s" %(i))
+	print("config rf-profile data-rates 802.11a supported 48 %s" %(i))
+	print("config rf-profile data-rates 802.11a supported 54 %s" %(i))
+	print("config rf-profile tx-power-min 10 %s" %(i))
+	print("config rf-profile coverage data -70  %s" %(i))
+	print("config rf-profile coverage voice -65  %s" %(i))
