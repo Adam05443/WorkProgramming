@@ -1,11 +1,11 @@
 import sys 
-
+import os
 #open the file with the raw list of access points
-f = open("list of access points", "r")
+f = open(os.path.join('\MyDocuments\Python Scripts','list of access points'), "r")
 #opens a blank document - will write to it later. 
-f2 = open("fixed list", "w")
+f2 = open(os.path.join('\MyDocuments\Python Scripts','fixed list'), "w")
 #opens a blank document - will write to it later. 
-f3 = open("fresh-list", "w")
+f3 = open(os.path.join('\MyDocuments\Python Scripts','fresh-list'), "w")
 
 #creates two empty lists, just use these to tempoarily store data later in the 
 #program
@@ -34,7 +34,8 @@ f2.close()
 It sorts the data that was in fixed list and writes the sorted 
 lines to another text file called "fresh-list"
 """
-with open("fixed list", 'r+') as r:
+with open(os.path.join('\MyDocuments\Python Scripts','fixed list'), "r+") as r:
     for line in sorted(r):
         print(line, end='', file = f3)
 
+f3.close()
