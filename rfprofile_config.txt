@@ -1,3 +1,4 @@
+!!!!!!!!!!!!!!!!!!!!!!!802.11a RF profiles!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 config rf-profile create 802.11a MCL-floor-0-rf-802.11a
 config rf-profile description MCL-floor-0-rf-802.11a
 config rf-profile data-rates 802.11a mandatory 12 MCL-floor-0-rf-802.11a
@@ -752,1514 +753,7 @@ config rf-profile data-rates 802.11a supported 54 EDC-floor-2-rf-802.11a
 config rf-profile tx-power-min 10 EDC-floor-2-rf-802.11a
 config rf-profile coverage data -70  EDC-floor-2-rf-802.11a
 config rf-profile coverage voice -65  EDC-floor-2-rf-802.11a
-config rf-profile create 802.11a MCL-floor-0-rf-802.11b/g
-config rf-profile description MCL-floor-0-rf-802.11b/g
-config rf-profile data-rates 802.11a mandatory 12 MCL-floor-0-rf-802.11b/g
-config rf-profile data-rates 802.11a mandatory 24 MCL-floor-0-rf-802.11b/g
-config rf-profile data-rates 802.11a disabled 6 MCL-floor-0-rf-802.11b/g
-config rf-profile data-rates 802.11a disabled 9 MCL-floor-0-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 18 MCL-floor-0-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 36 MCL-floor-0-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 48 MCL-floor-0-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 54 MCL-floor-0-rf-802.11b/g
-config rf-profile tx-power-min 10 MCL-floor-0-rf-802.11b/g
-config rf-profile coverage data -70  MCL-floor-0-rf-802.11b/g
-config rf-profile coverage voice -65  MCL-floor-0-rf-802.11b/g
-config rf-profile create 802.11a MCL-floor-1-rf-802.11b/g
-config rf-profile description MCL-floor-1-rf-802.11b/g
-config rf-profile data-rates 802.11a mandatory 12 MCL-floor-1-rf-802.11b/g
-config rf-profile data-rates 802.11a mandatory 24 MCL-floor-1-rf-802.11b/g
-config rf-profile data-rates 802.11a disabled 6 MCL-floor-1-rf-802.11b/g
-config rf-profile data-rates 802.11a disabled 9 MCL-floor-1-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 18 MCL-floor-1-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 36 MCL-floor-1-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 48 MCL-floor-1-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 54 MCL-floor-1-rf-802.11b/g
-config rf-profile tx-power-min 10 MCL-floor-1-rf-802.11b/g
-config rf-profile coverage data -70  MCL-floor-1-rf-802.11b/g
-config rf-profile coverage voice -65  MCL-floor-1-rf-802.11b/g
-config rf-profile create 802.11a MCL-floor-2-rf-802.11b/g
-config rf-profile description MCL-floor-2-rf-802.11b/g
-config rf-profile data-rates 802.11a mandatory 12 MCL-floor-2-rf-802.11b/g
-config rf-profile data-rates 802.11a mandatory 24 MCL-floor-2-rf-802.11b/g
-config rf-profile data-rates 802.11a disabled 6 MCL-floor-2-rf-802.11b/g
-config rf-profile data-rates 802.11a disabled 9 MCL-floor-2-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 18 MCL-floor-2-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 36 MCL-floor-2-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 48 MCL-floor-2-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 54 MCL-floor-2-rf-802.11b/g
-config rf-profile tx-power-min 10 MCL-floor-2-rf-802.11b/g
-config rf-profile coverage data -70  MCL-floor-2-rf-802.11b/g
-config rf-profile coverage voice -65  MCL-floor-2-rf-802.11b/g
-config rf-profile create 802.11a MCL-floor-3-rf-802.11b/g
-config rf-profile description MCL-floor-3-rf-802.11b/g
-config rf-profile data-rates 802.11a mandatory 12 MCL-floor-3-rf-802.11b/g
-config rf-profile data-rates 802.11a mandatory 24 MCL-floor-3-rf-802.11b/g
-config rf-profile data-rates 802.11a disabled 6 MCL-floor-3-rf-802.11b/g
-config rf-profile data-rates 802.11a disabled 9 MCL-floor-3-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 18 MCL-floor-3-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 36 MCL-floor-3-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 48 MCL-floor-3-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 54 MCL-floor-3-rf-802.11b/g
-config rf-profile tx-power-min 10 MCL-floor-3-rf-802.11b/g
-config rf-profile coverage data -70  MCL-floor-3-rf-802.11b/g
-config rf-profile coverage voice -65  MCL-floor-3-rf-802.11b/g
-config rf-profile create 802.11a MCL-floor-4-rf-802.11b/g
-config rf-profile description MCL-floor-4-rf-802.11b/g
-config rf-profile data-rates 802.11a mandatory 12 MCL-floor-4-rf-802.11b/g
-config rf-profile data-rates 802.11a mandatory 24 MCL-floor-4-rf-802.11b/g
-config rf-profile data-rates 802.11a disabled 6 MCL-floor-4-rf-802.11b/g
-config rf-profile data-rates 802.11a disabled 9 MCL-floor-4-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 18 MCL-floor-4-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 36 MCL-floor-4-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 48 MCL-floor-4-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 54 MCL-floor-4-rf-802.11b/g
-config rf-profile tx-power-min 10 MCL-floor-4-rf-802.11b/g
-config rf-profile coverage data -70  MCL-floor-4-rf-802.11b/g
-config rf-profile coverage voice -65  MCL-floor-4-rf-802.11b/g
-config rf-profile create 802.11a MCL-floor-5-rf-802.11b/g
-config rf-profile description MCL-floor-5-rf-802.11b/g
-config rf-profile data-rates 802.11a mandatory 12 MCL-floor-5-rf-802.11b/g
-config rf-profile data-rates 802.11a mandatory 24 MCL-floor-5-rf-802.11b/g
-config rf-profile data-rates 802.11a disabled 6 MCL-floor-5-rf-802.11b/g
-config rf-profile data-rates 802.11a disabled 9 MCL-floor-5-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 18 MCL-floor-5-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 36 MCL-floor-5-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 48 MCL-floor-5-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 54 MCL-floor-5-rf-802.11b/g
-config rf-profile tx-power-min 10 MCL-floor-5-rf-802.11b/g
-config rf-profile coverage data -70  MCL-floor-5-rf-802.11b/g
-config rf-profile coverage voice -65  MCL-floor-5-rf-802.11b/g
-config rf-profile create 802.11a MCL-floor-6-rf-802.11b/g
-config rf-profile description MCL-floor-6-rf-802.11b/g
-config rf-profile data-rates 802.11a mandatory 12 MCL-floor-6-rf-802.11b/g
-config rf-profile data-rates 802.11a mandatory 24 MCL-floor-6-rf-802.11b/g
-config rf-profile data-rates 802.11a disabled 6 MCL-floor-6-rf-802.11b/g
-config rf-profile data-rates 802.11a disabled 9 MCL-floor-6-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 18 MCL-floor-6-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 36 MCL-floor-6-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 48 MCL-floor-6-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 54 MCL-floor-6-rf-802.11b/g
-config rf-profile tx-power-min 10 MCL-floor-6-rf-802.11b/g
-config rf-profile coverage data -70  MCL-floor-6-rf-802.11b/g
-config rf-profile coverage voice -65  MCL-floor-6-rf-802.11b/g
-config rf-profile create 802.11a MCL-floor-7-rf-802.11b/g
-config rf-profile description MCL-floor-7-rf-802.11b/g
-config rf-profile data-rates 802.11a mandatory 12 MCL-floor-7-rf-802.11b/g
-config rf-profile data-rates 802.11a mandatory 24 MCL-floor-7-rf-802.11b/g
-config rf-profile data-rates 802.11a disabled 6 MCL-floor-7-rf-802.11b/g
-config rf-profile data-rates 802.11a disabled 9 MCL-floor-7-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 18 MCL-floor-7-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 36 MCL-floor-7-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 48 MCL-floor-7-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 54 MCL-floor-7-rf-802.11b/g
-config rf-profile tx-power-min 10 MCL-floor-7-rf-802.11b/g
-config rf-profile coverage data -70  MCL-floor-7-rf-802.11b/g
-config rf-profile coverage voice -65  MCL-floor-7-rf-802.11b/g
-config rf-profile create 802.11a PTK-floor-0-rf-802.11b/g
-config rf-profile description PTK-floor-0-rf-802.11b/g
-config rf-profile data-rates 802.11a mandatory 12 PTK-floor-0-rf-802.11b/g
-config rf-profile data-rates 802.11a mandatory 24 PTK-floor-0-rf-802.11b/g
-config rf-profile data-rates 802.11a disabled 6 PTK-floor-0-rf-802.11b/g
-config rf-profile data-rates 802.11a disabled 9 PTK-floor-0-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 18 PTK-floor-0-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 36 PTK-floor-0-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 48 PTK-floor-0-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 54 PTK-floor-0-rf-802.11b/g
-config rf-profile tx-power-min 10 PTK-floor-0-rf-802.11b/g
-config rf-profile coverage data -70  PTK-floor-0-rf-802.11b/g
-config rf-profile coverage voice -65  PTK-floor-0-rf-802.11b/g
-config rf-profile create 802.11a PTK-floor-1-rf-802.11b/g
-config rf-profile description PTK-floor-1-rf-802.11b/g
-config rf-profile data-rates 802.11a mandatory 12 PTK-floor-1-rf-802.11b/g
-config rf-profile data-rates 802.11a mandatory 24 PTK-floor-1-rf-802.11b/g
-config rf-profile data-rates 802.11a disabled 6 PTK-floor-1-rf-802.11b/g
-config rf-profile data-rates 802.11a disabled 9 PTK-floor-1-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 18 PTK-floor-1-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 36 PTK-floor-1-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 48 PTK-floor-1-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 54 PTK-floor-1-rf-802.11b/g
-config rf-profile tx-power-min 10 PTK-floor-1-rf-802.11b/g
-config rf-profile coverage data -70  PTK-floor-1-rf-802.11b/g
-config rf-profile coverage voice -65  PTK-floor-1-rf-802.11b/g
-config rf-profile create 802.11a PTK-floor-2-rf-802.11b/g
-config rf-profile description PTK-floor-2-rf-802.11b/g
-config rf-profile data-rates 802.11a mandatory 12 PTK-floor-2-rf-802.11b/g
-config rf-profile data-rates 802.11a mandatory 24 PTK-floor-2-rf-802.11b/g
-config rf-profile data-rates 802.11a disabled 6 PTK-floor-2-rf-802.11b/g
-config rf-profile data-rates 802.11a disabled 9 PTK-floor-2-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 18 PTK-floor-2-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 36 PTK-floor-2-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 48 PTK-floor-2-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 54 PTK-floor-2-rf-802.11b/g
-config rf-profile tx-power-min 10 PTK-floor-2-rf-802.11b/g
-config rf-profile coverage data -70  PTK-floor-2-rf-802.11b/g
-config rf-profile coverage voice -65  PTK-floor-2-rf-802.11b/g
-config rf-profile create 802.11a PTK-floor-3-rf-802.11b/g
-config rf-profile description PTK-floor-3-rf-802.11b/g
-config rf-profile data-rates 802.11a mandatory 12 PTK-floor-3-rf-802.11b/g
-config rf-profile data-rates 802.11a mandatory 24 PTK-floor-3-rf-802.11b/g
-config rf-profile data-rates 802.11a disabled 6 PTK-floor-3-rf-802.11b/g
-config rf-profile data-rates 802.11a disabled 9 PTK-floor-3-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 18 PTK-floor-3-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 36 PTK-floor-3-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 48 PTK-floor-3-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 54 PTK-floor-3-rf-802.11b/g
-config rf-profile tx-power-min 10 PTK-floor-3-rf-802.11b/g
-config rf-profile coverage data -70  PTK-floor-3-rf-802.11b/g
-config rf-profile coverage voice -65  PTK-floor-3-rf-802.11b/g
-config rf-profile create 802.11a PTK-floor-4-rf-802.11b/g
-config rf-profile description PTK-floor-4-rf-802.11b/g
-config rf-profile data-rates 802.11a mandatory 12 PTK-floor-4-rf-802.11b/g
-config rf-profile data-rates 802.11a mandatory 24 PTK-floor-4-rf-802.11b/g
-config rf-profile data-rates 802.11a disabled 6 PTK-floor-4-rf-802.11b/g
-config rf-profile data-rates 802.11a disabled 9 PTK-floor-4-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 18 PTK-floor-4-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 36 PTK-floor-4-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 48 PTK-floor-4-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 54 PTK-floor-4-rf-802.11b/g
-config rf-profile tx-power-min 10 PTK-floor-4-rf-802.11b/g
-config rf-profile coverage data -70  PTK-floor-4-rf-802.11b/g
-config rf-profile coverage voice -65  PTK-floor-4-rf-802.11b/g
-config rf-profile create 802.11a PTK-floor-5-rf-802.11b/g
-config rf-profile description PTK-floor-5-rf-802.11b/g
-config rf-profile data-rates 802.11a mandatory 12 PTK-floor-5-rf-802.11b/g
-config rf-profile data-rates 802.11a mandatory 24 PTK-floor-5-rf-802.11b/g
-config rf-profile data-rates 802.11a disabled 6 PTK-floor-5-rf-802.11b/g
-config rf-profile data-rates 802.11a disabled 9 PTK-floor-5-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 18 PTK-floor-5-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 36 PTK-floor-5-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 48 PTK-floor-5-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 54 PTK-floor-5-rf-802.11b/g
-config rf-profile tx-power-min 10 PTK-floor-5-rf-802.11b/g
-config rf-profile coverage data -70  PTK-floor-5-rf-802.11b/g
-config rf-profile coverage voice -65  PTK-floor-5-rf-802.11b/g
-config rf-profile create 802.11a PTK-floor-6-rf-802.11b/g
-config rf-profile description PTK-floor-6-rf-802.11b/g
-config rf-profile data-rates 802.11a mandatory 12 PTK-floor-6-rf-802.11b/g
-config rf-profile data-rates 802.11a mandatory 24 PTK-floor-6-rf-802.11b/g
-config rf-profile data-rates 802.11a disabled 6 PTK-floor-6-rf-802.11b/g
-config rf-profile data-rates 802.11a disabled 9 PTK-floor-6-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 18 PTK-floor-6-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 36 PTK-floor-6-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 48 PTK-floor-6-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 54 PTK-floor-6-rf-802.11b/g
-config rf-profile tx-power-min 10 PTK-floor-6-rf-802.11b/g
-config rf-profile coverage data -70  PTK-floor-6-rf-802.11b/g
-config rf-profile coverage voice -65  PTK-floor-6-rf-802.11b/g
-config rf-profile create 802.11a SMT-floor-0-rf-802.11b/g
-config rf-profile description SMT-floor-0-rf-802.11b/g
-config rf-profile data-rates 802.11a mandatory 12 SMT-floor-0-rf-802.11b/g
-config rf-profile data-rates 802.11a mandatory 24 SMT-floor-0-rf-802.11b/g
-config rf-profile data-rates 802.11a disabled 6 SMT-floor-0-rf-802.11b/g
-config rf-profile data-rates 802.11a disabled 9 SMT-floor-0-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 18 SMT-floor-0-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 36 SMT-floor-0-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 48 SMT-floor-0-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 54 SMT-floor-0-rf-802.11b/g
-config rf-profile tx-power-min 10 SMT-floor-0-rf-802.11b/g
-config rf-profile coverage data -70  SMT-floor-0-rf-802.11b/g
-config rf-profile coverage voice -65  SMT-floor-0-rf-802.11b/g
-config rf-profile create 802.11a SMT-floor-1-rf-802.11b/g
-config rf-profile description SMT-floor-1-rf-802.11b/g
-config rf-profile data-rates 802.11a mandatory 12 SMT-floor-1-rf-802.11b/g
-config rf-profile data-rates 802.11a mandatory 24 SMT-floor-1-rf-802.11b/g
-config rf-profile data-rates 802.11a disabled 6 SMT-floor-1-rf-802.11b/g
-config rf-profile data-rates 802.11a disabled 9 SMT-floor-1-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 18 SMT-floor-1-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 36 SMT-floor-1-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 48 SMT-floor-1-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 54 SMT-floor-1-rf-802.11b/g
-config rf-profile tx-power-min 10 SMT-floor-1-rf-802.11b/g
-config rf-profile coverage data -70  SMT-floor-1-rf-802.11b/g
-config rf-profile coverage voice -65  SMT-floor-1-rf-802.11b/g
-config rf-profile create 802.11a SMT-floor-2-rf-802.11b/g
-config rf-profile description SMT-floor-2-rf-802.11b/g
-config rf-profile data-rates 802.11a mandatory 12 SMT-floor-2-rf-802.11b/g
-config rf-profile data-rates 802.11a mandatory 24 SMT-floor-2-rf-802.11b/g
-config rf-profile data-rates 802.11a disabled 6 SMT-floor-2-rf-802.11b/g
-config rf-profile data-rates 802.11a disabled 9 SMT-floor-2-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 18 SMT-floor-2-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 36 SMT-floor-2-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 48 SMT-floor-2-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 54 SMT-floor-2-rf-802.11b/g
-config rf-profile tx-power-min 10 SMT-floor-2-rf-802.11b/g
-config rf-profile coverage data -70  SMT-floor-2-rf-802.11b/g
-config rf-profile coverage voice -65  SMT-floor-2-rf-802.11b/g
-config rf-profile create 802.11a SMT-floor-3-rf-802.11b/g
-config rf-profile description SMT-floor-3-rf-802.11b/g
-config rf-profile data-rates 802.11a mandatory 12 SMT-floor-3-rf-802.11b/g
-config rf-profile data-rates 802.11a mandatory 24 SMT-floor-3-rf-802.11b/g
-config rf-profile data-rates 802.11a disabled 6 SMT-floor-3-rf-802.11b/g
-config rf-profile data-rates 802.11a disabled 9 SMT-floor-3-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 18 SMT-floor-3-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 36 SMT-floor-3-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 48 SMT-floor-3-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 54 SMT-floor-3-rf-802.11b/g
-config rf-profile tx-power-min 10 SMT-floor-3-rf-802.11b/g
-config rf-profile coverage data -70  SMT-floor-3-rf-802.11b/g
-config rf-profile coverage voice -65  SMT-floor-3-rf-802.11b/g
-config rf-profile create 802.11a SMT-floor-4-rf-802.11b/g
-config rf-profile description SMT-floor-4-rf-802.11b/g
-config rf-profile data-rates 802.11a mandatory 12 SMT-floor-4-rf-802.11b/g
-config rf-profile data-rates 802.11a mandatory 24 SMT-floor-4-rf-802.11b/g
-config rf-profile data-rates 802.11a disabled 6 SMT-floor-4-rf-802.11b/g
-config rf-profile data-rates 802.11a disabled 9 SMT-floor-4-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 18 SMT-floor-4-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 36 SMT-floor-4-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 48 SMT-floor-4-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 54 SMT-floor-4-rf-802.11b/g
-config rf-profile tx-power-min 10 SMT-floor-4-rf-802.11b/g
-config rf-profile coverage data -70  SMT-floor-4-rf-802.11b/g
-config rf-profile coverage voice -65  SMT-floor-4-rf-802.11b/g
-config rf-profile create 802.11a SMT-floor-5-rf-802.11b/g
-config rf-profile description SMT-floor-5-rf-802.11b/g
-config rf-profile data-rates 802.11a mandatory 12 SMT-floor-5-rf-802.11b/g
-config rf-profile data-rates 802.11a mandatory 24 SMT-floor-5-rf-802.11b/g
-config rf-profile data-rates 802.11a disabled 6 SMT-floor-5-rf-802.11b/g
-config rf-profile data-rates 802.11a disabled 9 SMT-floor-5-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 18 SMT-floor-5-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 36 SMT-floor-5-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 48 SMT-floor-5-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 54 SMT-floor-5-rf-802.11b/g
-config rf-profile tx-power-min 10 SMT-floor-5-rf-802.11b/g
-config rf-profile coverage data -70  SMT-floor-5-rf-802.11b/g
-config rf-profile coverage voice -65  SMT-floor-5-rf-802.11b/g
-config rf-profile create 802.11a BRD-floor-1-rf-802.11b/g
-config rf-profile description BRD-floor-1-rf-802.11b/g
-config rf-profile data-rates 802.11a mandatory 12 BRD-floor-1-rf-802.11b/g
-config rf-profile data-rates 802.11a mandatory 24 BRD-floor-1-rf-802.11b/g
-config rf-profile data-rates 802.11a disabled 6 BRD-floor-1-rf-802.11b/g
-config rf-profile data-rates 802.11a disabled 9 BRD-floor-1-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 18 BRD-floor-1-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 36 BRD-floor-1-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 48 BRD-floor-1-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 54 BRD-floor-1-rf-802.11b/g
-config rf-profile tx-power-min 10 BRD-floor-1-rf-802.11b/g
-config rf-profile coverage data -70  BRD-floor-1-rf-802.11b/g
-config rf-profile coverage voice -65  BRD-floor-1-rf-802.11b/g
-config rf-profile create 802.11a BRD-floor-2-rf-802.11b/g
-config rf-profile description BRD-floor-2-rf-802.11b/g
-config rf-profile data-rates 802.11a mandatory 12 BRD-floor-2-rf-802.11b/g
-config rf-profile data-rates 802.11a mandatory 24 BRD-floor-2-rf-802.11b/g
-config rf-profile data-rates 802.11a disabled 6 BRD-floor-2-rf-802.11b/g
-config rf-profile data-rates 802.11a disabled 9 BRD-floor-2-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 18 BRD-floor-2-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 36 BRD-floor-2-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 48 BRD-floor-2-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 54 BRD-floor-2-rf-802.11b/g
-config rf-profile tx-power-min 10 BRD-floor-2-rf-802.11b/g
-config rf-profile coverage data -70  BRD-floor-2-rf-802.11b/g
-config rf-profile coverage voice -65  BRD-floor-2-rf-802.11b/g
-config rf-profile create 802.11a BRD-floor-3-rf-802.11b/g
-config rf-profile description BRD-floor-3-rf-802.11b/g
-config rf-profile data-rates 802.11a mandatory 12 BRD-floor-3-rf-802.11b/g
-config rf-profile data-rates 802.11a mandatory 24 BRD-floor-3-rf-802.11b/g
-config rf-profile data-rates 802.11a disabled 6 BRD-floor-3-rf-802.11b/g
-config rf-profile data-rates 802.11a disabled 9 BRD-floor-3-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 18 BRD-floor-3-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 36 BRD-floor-3-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 48 BRD-floor-3-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 54 BRD-floor-3-rf-802.11b/g
-config rf-profile tx-power-min 10 BRD-floor-3-rf-802.11b/g
-config rf-profile coverage data -70  BRD-floor-3-rf-802.11b/g
-config rf-profile coverage voice -65  BRD-floor-3-rf-802.11b/g
-config rf-profile create 802.11a BRD-floor-4-rf-802.11b/g
-config rf-profile description BRD-floor-4-rf-802.11b/g
-config rf-profile data-rates 802.11a mandatory 12 BRD-floor-4-rf-802.11b/g
-config rf-profile data-rates 802.11a mandatory 24 BRD-floor-4-rf-802.11b/g
-config rf-profile data-rates 802.11a disabled 6 BRD-floor-4-rf-802.11b/g
-config rf-profile data-rates 802.11a disabled 9 BRD-floor-4-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 18 BRD-floor-4-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 36 BRD-floor-4-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 48 BRD-floor-4-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 54 BRD-floor-4-rf-802.11b/g
-config rf-profile tx-power-min 10 BRD-floor-4-rf-802.11b/g
-config rf-profile coverage data -70  BRD-floor-4-rf-802.11b/g
-config rf-profile coverage voice -65  BRD-floor-4-rf-802.11b/g
-config rf-profile create 802.11a BRD-floor-5-rf-802.11b/g
-config rf-profile description BRD-floor-5-rf-802.11b/g
-config rf-profile data-rates 802.11a mandatory 12 BRD-floor-5-rf-802.11b/g
-config rf-profile data-rates 802.11a mandatory 24 BRD-floor-5-rf-802.11b/g
-config rf-profile data-rates 802.11a disabled 6 BRD-floor-5-rf-802.11b/g
-config rf-profile data-rates 802.11a disabled 9 BRD-floor-5-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 18 BRD-floor-5-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 36 BRD-floor-5-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 48 BRD-floor-5-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 54 BRD-floor-5-rf-802.11b/g
-config rf-profile tx-power-min 10 BRD-floor-5-rf-802.11b/g
-config rf-profile coverage data -70  BRD-floor-5-rf-802.11b/g
-config rf-profile coverage voice -65  BRD-floor-5-rf-802.11b/g
-config rf-profile create 802.11a BRD-floor-6-rf-802.11b/g
-config rf-profile description BRD-floor-6-rf-802.11b/g
-config rf-profile data-rates 802.11a mandatory 12 BRD-floor-6-rf-802.11b/g
-config rf-profile data-rates 802.11a mandatory 24 BRD-floor-6-rf-802.11b/g
-config rf-profile data-rates 802.11a disabled 6 BRD-floor-6-rf-802.11b/g
-config rf-profile data-rates 802.11a disabled 9 BRD-floor-6-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 18 BRD-floor-6-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 36 BRD-floor-6-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 48 BRD-floor-6-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 54 BRD-floor-6-rf-802.11b/g
-config rf-profile tx-power-min 10 BRD-floor-6-rf-802.11b/g
-config rf-profile coverage data -70  BRD-floor-6-rf-802.11b/g
-config rf-profile coverage voice -65  BRD-floor-6-rf-802.11b/g
-config rf-profile create 802.11a BRD-floor-7-rf-802.11b/g
-config rf-profile description BRD-floor-7-rf-802.11b/g
-config rf-profile data-rates 802.11a mandatory 12 BRD-floor-7-rf-802.11b/g
-config rf-profile data-rates 802.11a mandatory 24 BRD-floor-7-rf-802.11b/g
-config rf-profile data-rates 802.11a disabled 6 BRD-floor-7-rf-802.11b/g
-config rf-profile data-rates 802.11a disabled 9 BRD-floor-7-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 18 BRD-floor-7-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 36 BRD-floor-7-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 48 BRD-floor-7-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 54 BRD-floor-7-rf-802.11b/g
-config rf-profile tx-power-min 10 BRD-floor-7-rf-802.11b/g
-config rf-profile coverage data -70  BRD-floor-7-rf-802.11b/g
-config rf-profile coverage voice -65  BRD-floor-7-rf-802.11b/g
-config rf-profile create 802.11a SHP-floor-1-rf-802.11b/g
-config rf-profile description SHP-floor-1-rf-802.11b/g
-config rf-profile data-rates 802.11a mandatory 12 SHP-floor-1-rf-802.11b/g
-config rf-profile data-rates 802.11a mandatory 24 SHP-floor-1-rf-802.11b/g
-config rf-profile data-rates 802.11a disabled 6 SHP-floor-1-rf-802.11b/g
-config rf-profile data-rates 802.11a disabled 9 SHP-floor-1-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 18 SHP-floor-1-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 36 SHP-floor-1-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 48 SHP-floor-1-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 54 SHP-floor-1-rf-802.11b/g
-config rf-profile tx-power-min 10 SHP-floor-1-rf-802.11b/g
-config rf-profile coverage data -70  SHP-floor-1-rf-802.11b/g
-config rf-profile coverage voice -65  SHP-floor-1-rf-802.11b/g
-config rf-profile create 802.11a SHP-floor-2-rf-802.11b/g
-config rf-profile description SHP-floor-2-rf-802.11b/g
-config rf-profile data-rates 802.11a mandatory 12 SHP-floor-2-rf-802.11b/g
-config rf-profile data-rates 802.11a mandatory 24 SHP-floor-2-rf-802.11b/g
-config rf-profile data-rates 802.11a disabled 6 SHP-floor-2-rf-802.11b/g
-config rf-profile data-rates 802.11a disabled 9 SHP-floor-2-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 18 SHP-floor-2-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 36 SHP-floor-2-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 48 SHP-floor-2-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 54 SHP-floor-2-rf-802.11b/g
-config rf-profile tx-power-min 10 SHP-floor-2-rf-802.11b/g
-config rf-profile coverage data -70  SHP-floor-2-rf-802.11b/g
-config rf-profile coverage voice -65  SHP-floor-2-rf-802.11b/g
-config rf-profile create 802.11a SHP-floor-3-rf-802.11b/g
-config rf-profile description SHP-floor-3-rf-802.11b/g
-config rf-profile data-rates 802.11a mandatory 12 SHP-floor-3-rf-802.11b/g
-config rf-profile data-rates 802.11a mandatory 24 SHP-floor-3-rf-802.11b/g
-config rf-profile data-rates 802.11a disabled 6 SHP-floor-3-rf-802.11b/g
-config rf-profile data-rates 802.11a disabled 9 SHP-floor-3-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 18 SHP-floor-3-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 36 SHP-floor-3-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 48 SHP-floor-3-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 54 SHP-floor-3-rf-802.11b/g
-config rf-profile tx-power-min 10 SHP-floor-3-rf-802.11b/g
-config rf-profile coverage data -70  SHP-floor-3-rf-802.11b/g
-config rf-profile coverage voice -65  SHP-floor-3-rf-802.11b/g
-config rf-profile create 802.11a SHP-floor-4-rf-802.11b/g
-config rf-profile description SHP-floor-4-rf-802.11b/g
-config rf-profile data-rates 802.11a mandatory 12 SHP-floor-4-rf-802.11b/g
-config rf-profile data-rates 802.11a mandatory 24 SHP-floor-4-rf-802.11b/g
-config rf-profile data-rates 802.11a disabled 6 SHP-floor-4-rf-802.11b/g
-config rf-profile data-rates 802.11a disabled 9 SHP-floor-4-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 18 SHP-floor-4-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 36 SHP-floor-4-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 48 SHP-floor-4-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 54 SHP-floor-4-rf-802.11b/g
-config rf-profile tx-power-min 10 SHP-floor-4-rf-802.11b/g
-config rf-profile coverage data -70  SHP-floor-4-rf-802.11b/g
-config rf-profile coverage voice -65  SHP-floor-4-rf-802.11b/g
-config rf-profile create 802.11a SHP-floor-5-rf-802.11b/g
-config rf-profile description SHP-floor-5-rf-802.11b/g
-config rf-profile data-rates 802.11a mandatory 12 SHP-floor-5-rf-802.11b/g
-config rf-profile data-rates 802.11a mandatory 24 SHP-floor-5-rf-802.11b/g
-config rf-profile data-rates 802.11a disabled 6 SHP-floor-5-rf-802.11b/g
-config rf-profile data-rates 802.11a disabled 9 SHP-floor-5-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 18 SHP-floor-5-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 36 SHP-floor-5-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 48 SHP-floor-5-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 54 SHP-floor-5-rf-802.11b/g
-config rf-profile tx-power-min 10 SHP-floor-5-rf-802.11b/g
-config rf-profile coverage data -70  SHP-floor-5-rf-802.11b/g
-config rf-profile coverage voice -65  SHP-floor-5-rf-802.11b/g
-config rf-profile create 802.11a SHP-floor-6-rf-802.11b/g
-config rf-profile description SHP-floor-6-rf-802.11b/g
-config rf-profile data-rates 802.11a mandatory 12 SHP-floor-6-rf-802.11b/g
-config rf-profile data-rates 802.11a mandatory 24 SHP-floor-6-rf-802.11b/g
-config rf-profile data-rates 802.11a disabled 6 SHP-floor-6-rf-802.11b/g
-config rf-profile data-rates 802.11a disabled 9 SHP-floor-6-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 18 SHP-floor-6-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 36 SHP-floor-6-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 48 SHP-floor-6-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 54 SHP-floor-6-rf-802.11b/g
-config rf-profile tx-power-min 10 SHP-floor-6-rf-802.11b/g
-config rf-profile coverage data -70  SHP-floor-6-rf-802.11b/g
-config rf-profile coverage voice -65  SHP-floor-6-rf-802.11b/g
-config rf-profile create 802.11a FLT-floor-1-rf-802.11b/g
-config rf-profile description FLT-floor-1-rf-802.11b/g
-config rf-profile data-rates 802.11a mandatory 12 FLT-floor-1-rf-802.11b/g
-config rf-profile data-rates 802.11a mandatory 24 FLT-floor-1-rf-802.11b/g
-config rf-profile data-rates 802.11a disabled 6 FLT-floor-1-rf-802.11b/g
-config rf-profile data-rates 802.11a disabled 9 FLT-floor-1-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 18 FLT-floor-1-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 36 FLT-floor-1-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 48 FLT-floor-1-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 54 FLT-floor-1-rf-802.11b/g
-config rf-profile tx-power-min 10 FLT-floor-1-rf-802.11b/g
-config rf-profile coverage data -70  FLT-floor-1-rf-802.11b/g
-config rf-profile coverage voice -65  FLT-floor-1-rf-802.11b/g
-config rf-profile create 802.11a FLT-floor-2-rf-802.11b/g
-config rf-profile description FLT-floor-2-rf-802.11b/g
-config rf-profile data-rates 802.11a mandatory 12 FLT-floor-2-rf-802.11b/g
-config rf-profile data-rates 802.11a mandatory 24 FLT-floor-2-rf-802.11b/g
-config rf-profile data-rates 802.11a disabled 6 FLT-floor-2-rf-802.11b/g
-config rf-profile data-rates 802.11a disabled 9 FLT-floor-2-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 18 FLT-floor-2-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 36 FLT-floor-2-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 48 FLT-floor-2-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 54 FLT-floor-2-rf-802.11b/g
-config rf-profile tx-power-min 10 FLT-floor-2-rf-802.11b/g
-config rf-profile coverage data -70  FLT-floor-2-rf-802.11b/g
-config rf-profile coverage voice -65  FLT-floor-2-rf-802.11b/g
-config rf-profile create 802.11a FLT-floor-3-rf-802.11b/g
-config rf-profile description FLT-floor-3-rf-802.11b/g
-config rf-profile data-rates 802.11a mandatory 12 FLT-floor-3-rf-802.11b/g
-config rf-profile data-rates 802.11a mandatory 24 FLT-floor-3-rf-802.11b/g
-config rf-profile data-rates 802.11a disabled 6 FLT-floor-3-rf-802.11b/g
-config rf-profile data-rates 802.11a disabled 9 FLT-floor-3-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 18 FLT-floor-3-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 36 FLT-floor-3-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 48 FLT-floor-3-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 54 FLT-floor-3-rf-802.11b/g
-config rf-profile tx-power-min 10 FLT-floor-3-rf-802.11b/g
-config rf-profile coverage data -70  FLT-floor-3-rf-802.11b/g
-config rf-profile coverage voice -65  FLT-floor-3-rf-802.11b/g
-config rf-profile create 802.11a CEN-floor-1-rf-802.11b/g
-config rf-profile description CEN-floor-1-rf-802.11b/g
-config rf-profile data-rates 802.11a mandatory 12 CEN-floor-1-rf-802.11b/g
-config rf-profile data-rates 802.11a mandatory 24 CEN-floor-1-rf-802.11b/g
-config rf-profile data-rates 802.11a disabled 6 CEN-floor-1-rf-802.11b/g
-config rf-profile data-rates 802.11a disabled 9 CEN-floor-1-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 18 CEN-floor-1-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 36 CEN-floor-1-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 48 CEN-floor-1-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 54 CEN-floor-1-rf-802.11b/g
-config rf-profile tx-power-min 10 CEN-floor-1-rf-802.11b/g
-config rf-profile coverage data -70  CEN-floor-1-rf-802.11b/g
-config rf-profile coverage voice -65  CEN-floor-1-rf-802.11b/g
-config rf-profile create 802.11a CEN-floor-2-rf-802.11b/g
-config rf-profile description CEN-floor-2-rf-802.11b/g
-config rf-profile data-rates 802.11a mandatory 12 CEN-floor-2-rf-802.11b/g
-config rf-profile data-rates 802.11a mandatory 24 CEN-floor-2-rf-802.11b/g
-config rf-profile data-rates 802.11a disabled 6 CEN-floor-2-rf-802.11b/g
-config rf-profile data-rates 802.11a disabled 9 CEN-floor-2-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 18 CEN-floor-2-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 36 CEN-floor-2-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 48 CEN-floor-2-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 54 CEN-floor-2-rf-802.11b/g
-config rf-profile tx-power-min 10 CEN-floor-2-rf-802.11b/g
-config rf-profile coverage data -70  CEN-floor-2-rf-802.11b/g
-config rf-profile coverage voice -65  CEN-floor-2-rf-802.11b/g
-config rf-profile create 802.11a CEN-floor-3-rf-802.11b/g
-config rf-profile description CEN-floor-3-rf-802.11b/g
-config rf-profile data-rates 802.11a mandatory 12 CEN-floor-3-rf-802.11b/g
-config rf-profile data-rates 802.11a mandatory 24 CEN-floor-3-rf-802.11b/g
-config rf-profile data-rates 802.11a disabled 6 CEN-floor-3-rf-802.11b/g
-config rf-profile data-rates 802.11a disabled 9 CEN-floor-3-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 18 CEN-floor-3-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 36 CEN-floor-3-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 48 CEN-floor-3-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 54 CEN-floor-3-rf-802.11b/g
-config rf-profile tx-power-min 10 CEN-floor-3-rf-802.11b/g
-config rf-profile coverage data -70  CEN-floor-3-rf-802.11b/g
-config rf-profile coverage voice -65  CEN-floor-3-rf-802.11b/g
-config rf-profile create 802.11a CEN-floor-4-rf-802.11b/g
-config rf-profile description CEN-floor-4-rf-802.11b/g
-config rf-profile data-rates 802.11a mandatory 12 CEN-floor-4-rf-802.11b/g
-config rf-profile data-rates 802.11a mandatory 24 CEN-floor-4-rf-802.11b/g
-config rf-profile data-rates 802.11a disabled 6 CEN-floor-4-rf-802.11b/g
-config rf-profile data-rates 802.11a disabled 9 CEN-floor-4-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 18 CEN-floor-4-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 36 CEN-floor-4-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 48 CEN-floor-4-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 54 CEN-floor-4-rf-802.11b/g
-config rf-profile tx-power-min 10 CEN-floor-4-rf-802.11b/g
-config rf-profile coverage data -70  CEN-floor-4-rf-802.11b/g
-config rf-profile coverage voice -65  CEN-floor-4-rf-802.11b/g
-config rf-profile create 802.11a GPL-floor-2-rf-802.11b/g
-config rf-profile description GPL-floor-2-rf-802.11b/g
-config rf-profile data-rates 802.11a mandatory 12 GPL-floor-2-rf-802.11b/g
-config rf-profile data-rates 802.11a mandatory 24 GPL-floor-2-rf-802.11b/g
-config rf-profile data-rates 802.11a disabled 6 GPL-floor-2-rf-802.11b/g
-config rf-profile data-rates 802.11a disabled 9 GPL-floor-2-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 18 GPL-floor-2-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 36 GPL-floor-2-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 48 GPL-floor-2-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 54 GPL-floor-2-rf-802.11b/g
-config rf-profile tx-power-min 10 GPL-floor-2-rf-802.11b/g
-config rf-profile coverage data -70  GPL-floor-2-rf-802.11b/g
-config rf-profile coverage voice -65  GPL-floor-2-rf-802.11b/g
-config rf-profile create 802.11a EPL-floor-1-rf-802.11b/g
-config rf-profile description EPL-floor-1-rf-802.11b/g
-config rf-profile data-rates 802.11a mandatory 12 EPL-floor-1-rf-802.11b/g
-config rf-profile data-rates 802.11a mandatory 24 EPL-floor-1-rf-802.11b/g
-config rf-profile data-rates 802.11a disabled 6 EPL-floor-1-rf-802.11b/g
-config rf-profile data-rates 802.11a disabled 9 EPL-floor-1-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 18 EPL-floor-1-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 36 EPL-floor-1-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 48 EPL-floor-1-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 54 EPL-floor-1-rf-802.11b/g
-config rf-profile tx-power-min 10 EPL-floor-1-rf-802.11b/g
-config rf-profile coverage data -70  EPL-floor-1-rf-802.11b/g
-config rf-profile coverage voice -65  EPL-floor-1-rf-802.11b/g
-config rf-profile create 802.11a EPL-floor-2-rf-802.11b/g
-config rf-profile description EPL-floor-2-rf-802.11b/g
-config rf-profile data-rates 802.11a mandatory 12 EPL-floor-2-rf-802.11b/g
-config rf-profile data-rates 802.11a mandatory 24 EPL-floor-2-rf-802.11b/g
-config rf-profile data-rates 802.11a disabled 6 EPL-floor-2-rf-802.11b/g
-config rf-profile data-rates 802.11a disabled 9 EPL-floor-2-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 18 EPL-floor-2-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 36 EPL-floor-2-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 48 EPL-floor-2-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 54 EPL-floor-2-rf-802.11b/g
-config rf-profile tx-power-min 10 EPL-floor-2-rf-802.11b/g
-config rf-profile coverage data -70  EPL-floor-2-rf-802.11b/g
-config rf-profile coverage voice -65  EPL-floor-2-rf-802.11b/g
-config rf-profile create 802.11a EPL-floor-3-rf-802.11b/g
-config rf-profile description EPL-floor-3-rf-802.11b/g
-config rf-profile data-rates 802.11a mandatory 12 EPL-floor-3-rf-802.11b/g
-config rf-profile data-rates 802.11a mandatory 24 EPL-floor-3-rf-802.11b/g
-config rf-profile data-rates 802.11a disabled 6 EPL-floor-3-rf-802.11b/g
-config rf-profile data-rates 802.11a disabled 9 EPL-floor-3-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 18 EPL-floor-3-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 36 EPL-floor-3-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 48 EPL-floor-3-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 54 EPL-floor-3-rf-802.11b/g
-config rf-profile tx-power-min 10 EPL-floor-3-rf-802.11b/g
-config rf-profile coverage data -70  EPL-floor-3-rf-802.11b/g
-config rf-profile coverage voice -65  EPL-floor-3-rf-802.11b/g
-config rf-profile create 802.11a EPL-floor-4-rf-802.11b/g
-config rf-profile description EPL-floor-4-rf-802.11b/g
-config rf-profile data-rates 802.11a mandatory 12 EPL-floor-4-rf-802.11b/g
-config rf-profile data-rates 802.11a mandatory 24 EPL-floor-4-rf-802.11b/g
-config rf-profile data-rates 802.11a disabled 6 EPL-floor-4-rf-802.11b/g
-config rf-profile data-rates 802.11a disabled 9 EPL-floor-4-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 18 EPL-floor-4-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 36 EPL-floor-4-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 48 EPL-floor-4-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 54 EPL-floor-4-rf-802.11b/g
-config rf-profile tx-power-min 10 EPL-floor-4-rf-802.11b/g
-config rf-profile coverage data -70  EPL-floor-4-rf-802.11b/g
-config rf-profile coverage voice -65  EPL-floor-4-rf-802.11b/g
-config rf-profile create 802.11a EPL-floor-5-rf-802.11b/g
-config rf-profile description EPL-floor-5-rf-802.11b/g
-config rf-profile data-rates 802.11a mandatory 12 EPL-floor-5-rf-802.11b/g
-config rf-profile data-rates 802.11a mandatory 24 EPL-floor-5-rf-802.11b/g
-config rf-profile data-rates 802.11a disabled 6 EPL-floor-5-rf-802.11b/g
-config rf-profile data-rates 802.11a disabled 9 EPL-floor-5-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 18 EPL-floor-5-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 36 EPL-floor-5-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 48 EPL-floor-5-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 54 EPL-floor-5-rf-802.11b/g
-config rf-profile tx-power-min 10 EPL-floor-5-rf-802.11b/g
-config rf-profile coverage data -70  EPL-floor-5-rf-802.11b/g
-config rf-profile coverage voice -65  EPL-floor-5-rf-802.11b/g
-config rf-profile create 802.11a WPL-floor-1-rf-802.11b/g
-config rf-profile description WPL-floor-1-rf-802.11b/g
-config rf-profile data-rates 802.11a mandatory 12 WPL-floor-1-rf-802.11b/g
-config rf-profile data-rates 802.11a mandatory 24 WPL-floor-1-rf-802.11b/g
-config rf-profile data-rates 802.11a disabled 6 WPL-floor-1-rf-802.11b/g
-config rf-profile data-rates 802.11a disabled 9 WPL-floor-1-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 18 WPL-floor-1-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 36 WPL-floor-1-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 48 WPL-floor-1-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 54 WPL-floor-1-rf-802.11b/g
-config rf-profile tx-power-min 10 WPL-floor-1-rf-802.11b/g
-config rf-profile coverage data -70  WPL-floor-1-rf-802.11b/g
-config rf-profile coverage voice -65  WPL-floor-1-rf-802.11b/g
-config rf-profile create 802.11a WPL-floor-2-rf-802.11b/g
-config rf-profile description WPL-floor-2-rf-802.11b/g
-config rf-profile data-rates 802.11a mandatory 12 WPL-floor-2-rf-802.11b/g
-config rf-profile data-rates 802.11a mandatory 24 WPL-floor-2-rf-802.11b/g
-config rf-profile data-rates 802.11a disabled 6 WPL-floor-2-rf-802.11b/g
-config rf-profile data-rates 802.11a disabled 9 WPL-floor-2-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 18 WPL-floor-2-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 36 WPL-floor-2-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 48 WPL-floor-2-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 54 WPL-floor-2-rf-802.11b/g
-config rf-profile tx-power-min 10 WPL-floor-2-rf-802.11b/g
-config rf-profile coverage data -70  WPL-floor-2-rf-802.11b/g
-config rf-profile coverage voice -65  WPL-floor-2-rf-802.11b/g
-config rf-profile create 802.11a WPL-floor-3-rf-802.11b/g
-config rf-profile description WPL-floor-3-rf-802.11b/g
-config rf-profile data-rates 802.11a mandatory 12 WPL-floor-3-rf-802.11b/g
-config rf-profile data-rates 802.11a mandatory 24 WPL-floor-3-rf-802.11b/g
-config rf-profile data-rates 802.11a disabled 6 WPL-floor-3-rf-802.11b/g
-config rf-profile data-rates 802.11a disabled 9 WPL-floor-3-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 18 WPL-floor-3-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 36 WPL-floor-3-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 48 WPL-floor-3-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 54 WPL-floor-3-rf-802.11b/g
-config rf-profile tx-power-min 10 WPL-floor-3-rf-802.11b/g
-config rf-profile coverage data -70  WPL-floor-3-rf-802.11b/g
-config rf-profile coverage voice -65  WPL-floor-3-rf-802.11b/g
-config rf-profile create 802.11a WPL-floor-4-rf-802.11b/g
-config rf-profile description WPL-floor-4-rf-802.11b/g
-config rf-profile data-rates 802.11a mandatory 12 WPL-floor-4-rf-802.11b/g
-config rf-profile data-rates 802.11a mandatory 24 WPL-floor-4-rf-802.11b/g
-config rf-profile data-rates 802.11a disabled 6 WPL-floor-4-rf-802.11b/g
-config rf-profile data-rates 802.11a disabled 9 WPL-floor-4-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 18 WPL-floor-4-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 36 WPL-floor-4-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 48 WPL-floor-4-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 54 WPL-floor-4-rf-802.11b/g
-config rf-profile tx-power-min 10 WPL-floor-4-rf-802.11b/g
-config rf-profile coverage data -70  WPL-floor-4-rf-802.11b/g
-config rf-profile coverage voice -65  WPL-floor-4-rf-802.11b/g
-config rf-profile create 802.11a WPL-floor-5-rf-802.11b/g
-config rf-profile description WPL-floor-5-rf-802.11b/g
-config rf-profile data-rates 802.11a mandatory 12 WPL-floor-5-rf-802.11b/g
-config rf-profile data-rates 802.11a mandatory 24 WPL-floor-5-rf-802.11b/g
-config rf-profile data-rates 802.11a disabled 6 WPL-floor-5-rf-802.11b/g
-config rf-profile data-rates 802.11a disabled 9 WPL-floor-5-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 18 WPL-floor-5-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 36 WPL-floor-5-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 48 WPL-floor-5-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 54 WPL-floor-5-rf-802.11b/g
-config rf-profile tx-power-min 10 WPL-floor-5-rf-802.11b/g
-config rf-profile coverage data -70  WPL-floor-5-rf-802.11b/g
-config rf-profile coverage voice -65  WPL-floor-5-rf-802.11b/g
-config rf-profile create 802.11a MPL-floor-1-rf-802.11b/g
-config rf-profile description MPL-floor-1-rf-802.11b/g
-config rf-profile data-rates 802.11a mandatory 12 MPL-floor-1-rf-802.11b/g
-config rf-profile data-rates 802.11a mandatory 24 MPL-floor-1-rf-802.11b/g
-config rf-profile data-rates 802.11a disabled 6 MPL-floor-1-rf-802.11b/g
-config rf-profile data-rates 802.11a disabled 9 MPL-floor-1-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 18 MPL-floor-1-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 36 MPL-floor-1-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 48 MPL-floor-1-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 54 MPL-floor-1-rf-802.11b/g
-config rf-profile tx-power-min 10 MPL-floor-1-rf-802.11b/g
-config rf-profile coverage data -70  MPL-floor-1-rf-802.11b/g
-config rf-profile coverage voice -65  MPL-floor-1-rf-802.11b/g
-config rf-profile create 802.11a MPL-floor-2-rf-802.11b/g
-config rf-profile description MPL-floor-2-rf-802.11b/g
-config rf-profile data-rates 802.11a mandatory 12 MPL-floor-2-rf-802.11b/g
-config rf-profile data-rates 802.11a mandatory 24 MPL-floor-2-rf-802.11b/g
-config rf-profile data-rates 802.11a disabled 6 MPL-floor-2-rf-802.11b/g
-config rf-profile data-rates 802.11a disabled 9 MPL-floor-2-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 18 MPL-floor-2-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 36 MPL-floor-2-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 48 MPL-floor-2-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 54 MPL-floor-2-rf-802.11b/g
-config rf-profile tx-power-min 10 MPL-floor-2-rf-802.11b/g
-config rf-profile coverage data -70  MPL-floor-2-rf-802.11b/g
-config rf-profile coverage voice -65  MPL-floor-2-rf-802.11b/g
-config rf-profile create 802.11a MPL-floor-3-rf-802.11b/g
-config rf-profile description MPL-floor-3-rf-802.11b/g
-config rf-profile data-rates 802.11a mandatory 12 MPL-floor-3-rf-802.11b/g
-config rf-profile data-rates 802.11a mandatory 24 MPL-floor-3-rf-802.11b/g
-config rf-profile data-rates 802.11a disabled 6 MPL-floor-3-rf-802.11b/g
-config rf-profile data-rates 802.11a disabled 9 MPL-floor-3-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 18 MPL-floor-3-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 36 MPL-floor-3-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 48 MPL-floor-3-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 54 MPL-floor-3-rf-802.11b/g
-config rf-profile tx-power-min 10 MPL-floor-3-rf-802.11b/g
-config rf-profile coverage data -70  MPL-floor-3-rf-802.11b/g
-config rf-profile coverage voice -65  MPL-floor-3-rf-802.11b/g
-config rf-profile create 802.11a MPL-floor-4-rf-802.11b/g
-config rf-profile description MPL-floor-4-rf-802.11b/g
-config rf-profile data-rates 802.11a mandatory 12 MPL-floor-4-rf-802.11b/g
-config rf-profile data-rates 802.11a mandatory 24 MPL-floor-4-rf-802.11b/g
-config rf-profile data-rates 802.11a disabled 6 MPL-floor-4-rf-802.11b/g
-config rf-profile data-rates 802.11a disabled 9 MPL-floor-4-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 18 MPL-floor-4-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 36 MPL-floor-4-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 48 MPL-floor-4-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 54 MPL-floor-4-rf-802.11b/g
-config rf-profile tx-power-min 10 MPL-floor-4-rf-802.11b/g
-config rf-profile coverage data -70  MPL-floor-4-rf-802.11b/g
-config rf-profile coverage voice -65  MPL-floor-4-rf-802.11b/g
-config rf-profile create 802.11a MPL-floor-5-rf-802.11b/g
-config rf-profile description MPL-floor-5-rf-802.11b/g
-config rf-profile data-rates 802.11a mandatory 12 MPL-floor-5-rf-802.11b/g
-config rf-profile data-rates 802.11a mandatory 24 MPL-floor-5-rf-802.11b/g
-config rf-profile data-rates 802.11a disabled 6 MPL-floor-5-rf-802.11b/g
-config rf-profile data-rates 802.11a disabled 9 MPL-floor-5-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 18 MPL-floor-5-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 36 MPL-floor-5-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 48 MPL-floor-5-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 54 MPL-floor-5-rf-802.11b/g
-config rf-profile tx-power-min 10 MPL-floor-5-rf-802.11b/g
-config rf-profile coverage data -70  MPL-floor-5-rf-802.11b/g
-config rf-profile coverage voice -65  MPL-floor-5-rf-802.11b/g
-config rf-profile create 802.11a EDC-floor-2-rf-802.11b/g
-config rf-profile description EDC-floor-2-rf-802.11b/g
-config rf-profile data-rates 802.11a mandatory 12 EDC-floor-2-rf-802.11b/g
-config rf-profile data-rates 802.11a mandatory 24 EDC-floor-2-rf-802.11b/g
-config rf-profile data-rates 802.11a disabled 6 EDC-floor-2-rf-802.11b/g
-config rf-profile data-rates 802.11a disabled 9 EDC-floor-2-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 18 EDC-floor-2-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 36 EDC-floor-2-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 48 EDC-floor-2-rf-802.11b/g
-config rf-profile data-rates 802.11a supported 54 EDC-floor-2-rf-802.11b/g
-config rf-profile tx-power-min 10 EDC-floor-2-rf-802.11b/g
-config rf-profile coverage data -70  EDC-floor-2-rf-802.11b/g
-config rf-profile coverage voice -65  EDC-floor-2-rf-802.11b/g
-config rf-profile create 802.11a MCL-floor-0-rf-802.11a
-config rf-profile description MCL-floor-0-rf-802.11a
-config rf-profile data-rates 802.11a mandatory 12 MCL-floor-0-rf-802.11a
-config rf-profile data-rates 802.11a mandatory 24 MCL-floor-0-rf-802.11a
-config rf-profile data-rates 802.11a disabled 6 MCL-floor-0-rf-802.11a
-config rf-profile data-rates 802.11a disabled 9 MCL-floor-0-rf-802.11a
-config rf-profile data-rates 802.11a supported 18 MCL-floor-0-rf-802.11a
-config rf-profile data-rates 802.11a supported 36 MCL-floor-0-rf-802.11a
-config rf-profile data-rates 802.11a supported 48 MCL-floor-0-rf-802.11a
-config rf-profile data-rates 802.11a supported 54 MCL-floor-0-rf-802.11a
-config rf-profile tx-power-min 10 MCL-floor-0-rf-802.11a
-config rf-profile coverage data -70  MCL-floor-0-rf-802.11a
-config rf-profile coverage voice -65  MCL-floor-0-rf-802.11a
-config rf-profile create 802.11a MCL-floor-1-rf-802.11a
-config rf-profile description MCL-floor-1-rf-802.11a
-config rf-profile data-rates 802.11a mandatory 12 MCL-floor-1-rf-802.11a
-config rf-profile data-rates 802.11a mandatory 24 MCL-floor-1-rf-802.11a
-config rf-profile data-rates 802.11a disabled 6 MCL-floor-1-rf-802.11a
-config rf-profile data-rates 802.11a disabled 9 MCL-floor-1-rf-802.11a
-config rf-profile data-rates 802.11a supported 18 MCL-floor-1-rf-802.11a
-config rf-profile data-rates 802.11a supported 36 MCL-floor-1-rf-802.11a
-config rf-profile data-rates 802.11a supported 48 MCL-floor-1-rf-802.11a
-config rf-profile data-rates 802.11a supported 54 MCL-floor-1-rf-802.11a
-config rf-profile tx-power-min 10 MCL-floor-1-rf-802.11a
-config rf-profile coverage data -70  MCL-floor-1-rf-802.11a
-config rf-profile coverage voice -65  MCL-floor-1-rf-802.11a
-config rf-profile create 802.11a MCL-floor-2-rf-802.11a
-config rf-profile description MCL-floor-2-rf-802.11a
-config rf-profile data-rates 802.11a mandatory 12 MCL-floor-2-rf-802.11a
-config rf-profile data-rates 802.11a mandatory 24 MCL-floor-2-rf-802.11a
-config rf-profile data-rates 802.11a disabled 6 MCL-floor-2-rf-802.11a
-config rf-profile data-rates 802.11a disabled 9 MCL-floor-2-rf-802.11a
-config rf-profile data-rates 802.11a supported 18 MCL-floor-2-rf-802.11a
-config rf-profile data-rates 802.11a supported 36 MCL-floor-2-rf-802.11a
-config rf-profile data-rates 802.11a supported 48 MCL-floor-2-rf-802.11a
-config rf-profile data-rates 802.11a supported 54 MCL-floor-2-rf-802.11a
-config rf-profile tx-power-min 10 MCL-floor-2-rf-802.11a
-config rf-profile coverage data -70  MCL-floor-2-rf-802.11a
-config rf-profile coverage voice -65  MCL-floor-2-rf-802.11a
-config rf-profile create 802.11a MCL-floor-3-rf-802.11a
-config rf-profile description MCL-floor-3-rf-802.11a
-config rf-profile data-rates 802.11a mandatory 12 MCL-floor-3-rf-802.11a
-config rf-profile data-rates 802.11a mandatory 24 MCL-floor-3-rf-802.11a
-config rf-profile data-rates 802.11a disabled 6 MCL-floor-3-rf-802.11a
-config rf-profile data-rates 802.11a disabled 9 MCL-floor-3-rf-802.11a
-config rf-profile data-rates 802.11a supported 18 MCL-floor-3-rf-802.11a
-config rf-profile data-rates 802.11a supported 36 MCL-floor-3-rf-802.11a
-config rf-profile data-rates 802.11a supported 48 MCL-floor-3-rf-802.11a
-config rf-profile data-rates 802.11a supported 54 MCL-floor-3-rf-802.11a
-config rf-profile tx-power-min 10 MCL-floor-3-rf-802.11a
-config rf-profile coverage data -70  MCL-floor-3-rf-802.11a
-config rf-profile coverage voice -65  MCL-floor-3-rf-802.11a
-config rf-profile create 802.11a MCL-floor-4-rf-802.11a
-config rf-profile description MCL-floor-4-rf-802.11a
-config rf-profile data-rates 802.11a mandatory 12 MCL-floor-4-rf-802.11a
-config rf-profile data-rates 802.11a mandatory 24 MCL-floor-4-rf-802.11a
-config rf-profile data-rates 802.11a disabled 6 MCL-floor-4-rf-802.11a
-config rf-profile data-rates 802.11a disabled 9 MCL-floor-4-rf-802.11a
-config rf-profile data-rates 802.11a supported 18 MCL-floor-4-rf-802.11a
-config rf-profile data-rates 802.11a supported 36 MCL-floor-4-rf-802.11a
-config rf-profile data-rates 802.11a supported 48 MCL-floor-4-rf-802.11a
-config rf-profile data-rates 802.11a supported 54 MCL-floor-4-rf-802.11a
-config rf-profile tx-power-min 10 MCL-floor-4-rf-802.11a
-config rf-profile coverage data -70  MCL-floor-4-rf-802.11a
-config rf-profile coverage voice -65  MCL-floor-4-rf-802.11a
-config rf-profile create 802.11a MCL-floor-5-rf-802.11a
-config rf-profile description MCL-floor-5-rf-802.11a
-config rf-profile data-rates 802.11a mandatory 12 MCL-floor-5-rf-802.11a
-config rf-profile data-rates 802.11a mandatory 24 MCL-floor-5-rf-802.11a
-config rf-profile data-rates 802.11a disabled 6 MCL-floor-5-rf-802.11a
-config rf-profile data-rates 802.11a disabled 9 MCL-floor-5-rf-802.11a
-config rf-profile data-rates 802.11a supported 18 MCL-floor-5-rf-802.11a
-config rf-profile data-rates 802.11a supported 36 MCL-floor-5-rf-802.11a
-config rf-profile data-rates 802.11a supported 48 MCL-floor-5-rf-802.11a
-config rf-profile data-rates 802.11a supported 54 MCL-floor-5-rf-802.11a
-config rf-profile tx-power-min 10 MCL-floor-5-rf-802.11a
-config rf-profile coverage data -70  MCL-floor-5-rf-802.11a
-config rf-profile coverage voice -65  MCL-floor-5-rf-802.11a
-config rf-profile create 802.11a MCL-floor-6-rf-802.11a
-config rf-profile description MCL-floor-6-rf-802.11a
-config rf-profile data-rates 802.11a mandatory 12 MCL-floor-6-rf-802.11a
-config rf-profile data-rates 802.11a mandatory 24 MCL-floor-6-rf-802.11a
-config rf-profile data-rates 802.11a disabled 6 MCL-floor-6-rf-802.11a
-config rf-profile data-rates 802.11a disabled 9 MCL-floor-6-rf-802.11a
-config rf-profile data-rates 802.11a supported 18 MCL-floor-6-rf-802.11a
-config rf-profile data-rates 802.11a supported 36 MCL-floor-6-rf-802.11a
-config rf-profile data-rates 802.11a supported 48 MCL-floor-6-rf-802.11a
-config rf-profile data-rates 802.11a supported 54 MCL-floor-6-rf-802.11a
-config rf-profile tx-power-min 10 MCL-floor-6-rf-802.11a
-config rf-profile coverage data -70  MCL-floor-6-rf-802.11a
-config rf-profile coverage voice -65  MCL-floor-6-rf-802.11a
-config rf-profile create 802.11a MCL-floor-7-rf-802.11a
-config rf-profile description MCL-floor-7-rf-802.11a
-config rf-profile data-rates 802.11a mandatory 12 MCL-floor-7-rf-802.11a
-config rf-profile data-rates 802.11a mandatory 24 MCL-floor-7-rf-802.11a
-config rf-profile data-rates 802.11a disabled 6 MCL-floor-7-rf-802.11a
-config rf-profile data-rates 802.11a disabled 9 MCL-floor-7-rf-802.11a
-config rf-profile data-rates 802.11a supported 18 MCL-floor-7-rf-802.11a
-config rf-profile data-rates 802.11a supported 36 MCL-floor-7-rf-802.11a
-config rf-profile data-rates 802.11a supported 48 MCL-floor-7-rf-802.11a
-config rf-profile data-rates 802.11a supported 54 MCL-floor-7-rf-802.11a
-config rf-profile tx-power-min 10 MCL-floor-7-rf-802.11a
-config rf-profile coverage data -70  MCL-floor-7-rf-802.11a
-config rf-profile coverage voice -65  MCL-floor-7-rf-802.11a
-config rf-profile create 802.11a PTK-floor-0-rf-802.11a
-config rf-profile description PTK-floor-0-rf-802.11a
-config rf-profile data-rates 802.11a mandatory 12 PTK-floor-0-rf-802.11a
-config rf-profile data-rates 802.11a mandatory 24 PTK-floor-0-rf-802.11a
-config rf-profile data-rates 802.11a disabled 6 PTK-floor-0-rf-802.11a
-config rf-profile data-rates 802.11a disabled 9 PTK-floor-0-rf-802.11a
-config rf-profile data-rates 802.11a supported 18 PTK-floor-0-rf-802.11a
-config rf-profile data-rates 802.11a supported 36 PTK-floor-0-rf-802.11a
-config rf-profile data-rates 802.11a supported 48 PTK-floor-0-rf-802.11a
-config rf-profile data-rates 802.11a supported 54 PTK-floor-0-rf-802.11a
-config rf-profile tx-power-min 10 PTK-floor-0-rf-802.11a
-config rf-profile coverage data -70  PTK-floor-0-rf-802.11a
-config rf-profile coverage voice -65  PTK-floor-0-rf-802.11a
-config rf-profile create 802.11a PTK-floor-1-rf-802.11a
-config rf-profile description PTK-floor-1-rf-802.11a
-config rf-profile data-rates 802.11a mandatory 12 PTK-floor-1-rf-802.11a
-config rf-profile data-rates 802.11a mandatory 24 PTK-floor-1-rf-802.11a
-config rf-profile data-rates 802.11a disabled 6 PTK-floor-1-rf-802.11a
-config rf-profile data-rates 802.11a disabled 9 PTK-floor-1-rf-802.11a
-config rf-profile data-rates 802.11a supported 18 PTK-floor-1-rf-802.11a
-config rf-profile data-rates 802.11a supported 36 PTK-floor-1-rf-802.11a
-config rf-profile data-rates 802.11a supported 48 PTK-floor-1-rf-802.11a
-config rf-profile data-rates 802.11a supported 54 PTK-floor-1-rf-802.11a
-config rf-profile tx-power-min 10 PTK-floor-1-rf-802.11a
-config rf-profile coverage data -70  PTK-floor-1-rf-802.11a
-config rf-profile coverage voice -65  PTK-floor-1-rf-802.11a
-config rf-profile create 802.11a PTK-floor-2-rf-802.11a
-config rf-profile description PTK-floor-2-rf-802.11a
-config rf-profile data-rates 802.11a mandatory 12 PTK-floor-2-rf-802.11a
-config rf-profile data-rates 802.11a mandatory 24 PTK-floor-2-rf-802.11a
-config rf-profile data-rates 802.11a disabled 6 PTK-floor-2-rf-802.11a
-config rf-profile data-rates 802.11a disabled 9 PTK-floor-2-rf-802.11a
-config rf-profile data-rates 802.11a supported 18 PTK-floor-2-rf-802.11a
-config rf-profile data-rates 802.11a supported 36 PTK-floor-2-rf-802.11a
-config rf-profile data-rates 802.11a supported 48 PTK-floor-2-rf-802.11a
-config rf-profile data-rates 802.11a supported 54 PTK-floor-2-rf-802.11a
-config rf-profile tx-power-min 10 PTK-floor-2-rf-802.11a
-config rf-profile coverage data -70  PTK-floor-2-rf-802.11a
-config rf-profile coverage voice -65  PTK-floor-2-rf-802.11a
-config rf-profile create 802.11a PTK-floor-3-rf-802.11a
-config rf-profile description PTK-floor-3-rf-802.11a
-config rf-profile data-rates 802.11a mandatory 12 PTK-floor-3-rf-802.11a
-config rf-profile data-rates 802.11a mandatory 24 PTK-floor-3-rf-802.11a
-config rf-profile data-rates 802.11a disabled 6 PTK-floor-3-rf-802.11a
-config rf-profile data-rates 802.11a disabled 9 PTK-floor-3-rf-802.11a
-config rf-profile data-rates 802.11a supported 18 PTK-floor-3-rf-802.11a
-config rf-profile data-rates 802.11a supported 36 PTK-floor-3-rf-802.11a
-config rf-profile data-rates 802.11a supported 48 PTK-floor-3-rf-802.11a
-config rf-profile data-rates 802.11a supported 54 PTK-floor-3-rf-802.11a
-config rf-profile tx-power-min 10 PTK-floor-3-rf-802.11a
-config rf-profile coverage data -70  PTK-floor-3-rf-802.11a
-config rf-profile coverage voice -65  PTK-floor-3-rf-802.11a
-config rf-profile create 802.11a PTK-floor-4-rf-802.11a
-config rf-profile description PTK-floor-4-rf-802.11a
-config rf-profile data-rates 802.11a mandatory 12 PTK-floor-4-rf-802.11a
-config rf-profile data-rates 802.11a mandatory 24 PTK-floor-4-rf-802.11a
-config rf-profile data-rates 802.11a disabled 6 PTK-floor-4-rf-802.11a
-config rf-profile data-rates 802.11a disabled 9 PTK-floor-4-rf-802.11a
-config rf-profile data-rates 802.11a supported 18 PTK-floor-4-rf-802.11a
-config rf-profile data-rates 802.11a supported 36 PTK-floor-4-rf-802.11a
-config rf-profile data-rates 802.11a supported 48 PTK-floor-4-rf-802.11a
-config rf-profile data-rates 802.11a supported 54 PTK-floor-4-rf-802.11a
-config rf-profile tx-power-min 10 PTK-floor-4-rf-802.11a
-config rf-profile coverage data -70  PTK-floor-4-rf-802.11a
-config rf-profile coverage voice -65  PTK-floor-4-rf-802.11a
-config rf-profile create 802.11a PTK-floor-5-rf-802.11a
-config rf-profile description PTK-floor-5-rf-802.11a
-config rf-profile data-rates 802.11a mandatory 12 PTK-floor-5-rf-802.11a
-config rf-profile data-rates 802.11a mandatory 24 PTK-floor-5-rf-802.11a
-config rf-profile data-rates 802.11a disabled 6 PTK-floor-5-rf-802.11a
-config rf-profile data-rates 802.11a disabled 9 PTK-floor-5-rf-802.11a
-config rf-profile data-rates 802.11a supported 18 PTK-floor-5-rf-802.11a
-config rf-profile data-rates 802.11a supported 36 PTK-floor-5-rf-802.11a
-config rf-profile data-rates 802.11a supported 48 PTK-floor-5-rf-802.11a
-config rf-profile data-rates 802.11a supported 54 PTK-floor-5-rf-802.11a
-config rf-profile tx-power-min 10 PTK-floor-5-rf-802.11a
-config rf-profile coverage data -70  PTK-floor-5-rf-802.11a
-config rf-profile coverage voice -65  PTK-floor-5-rf-802.11a
-config rf-profile create 802.11a PTK-floor-6-rf-802.11a
-config rf-profile description PTK-floor-6-rf-802.11a
-config rf-profile data-rates 802.11a mandatory 12 PTK-floor-6-rf-802.11a
-config rf-profile data-rates 802.11a mandatory 24 PTK-floor-6-rf-802.11a
-config rf-profile data-rates 802.11a disabled 6 PTK-floor-6-rf-802.11a
-config rf-profile data-rates 802.11a disabled 9 PTK-floor-6-rf-802.11a
-config rf-profile data-rates 802.11a supported 18 PTK-floor-6-rf-802.11a
-config rf-profile data-rates 802.11a supported 36 PTK-floor-6-rf-802.11a
-config rf-profile data-rates 802.11a supported 48 PTK-floor-6-rf-802.11a
-config rf-profile data-rates 802.11a supported 54 PTK-floor-6-rf-802.11a
-config rf-profile tx-power-min 10 PTK-floor-6-rf-802.11a
-config rf-profile coverage data -70  PTK-floor-6-rf-802.11a
-config rf-profile coverage voice -65  PTK-floor-6-rf-802.11a
-config rf-profile create 802.11a SMT-floor-0-rf-802.11a
-config rf-profile description SMT-floor-0-rf-802.11a
-config rf-profile data-rates 802.11a mandatory 12 SMT-floor-0-rf-802.11a
-config rf-profile data-rates 802.11a mandatory 24 SMT-floor-0-rf-802.11a
-config rf-profile data-rates 802.11a disabled 6 SMT-floor-0-rf-802.11a
-config rf-profile data-rates 802.11a disabled 9 SMT-floor-0-rf-802.11a
-config rf-profile data-rates 802.11a supported 18 SMT-floor-0-rf-802.11a
-config rf-profile data-rates 802.11a supported 36 SMT-floor-0-rf-802.11a
-config rf-profile data-rates 802.11a supported 48 SMT-floor-0-rf-802.11a
-config rf-profile data-rates 802.11a supported 54 SMT-floor-0-rf-802.11a
-config rf-profile tx-power-min 10 SMT-floor-0-rf-802.11a
-config rf-profile coverage data -70  SMT-floor-0-rf-802.11a
-config rf-profile coverage voice -65  SMT-floor-0-rf-802.11a
-config rf-profile create 802.11a SMT-floor-1-rf-802.11a
-config rf-profile description SMT-floor-1-rf-802.11a
-config rf-profile data-rates 802.11a mandatory 12 SMT-floor-1-rf-802.11a
-config rf-profile data-rates 802.11a mandatory 24 SMT-floor-1-rf-802.11a
-config rf-profile data-rates 802.11a disabled 6 SMT-floor-1-rf-802.11a
-config rf-profile data-rates 802.11a disabled 9 SMT-floor-1-rf-802.11a
-config rf-profile data-rates 802.11a supported 18 SMT-floor-1-rf-802.11a
-config rf-profile data-rates 802.11a supported 36 SMT-floor-1-rf-802.11a
-config rf-profile data-rates 802.11a supported 48 SMT-floor-1-rf-802.11a
-config rf-profile data-rates 802.11a supported 54 SMT-floor-1-rf-802.11a
-config rf-profile tx-power-min 10 SMT-floor-1-rf-802.11a
-config rf-profile coverage data -70  SMT-floor-1-rf-802.11a
-config rf-profile coverage voice -65  SMT-floor-1-rf-802.11a
-config rf-profile create 802.11a SMT-floor-2-rf-802.11a
-config rf-profile description SMT-floor-2-rf-802.11a
-config rf-profile data-rates 802.11a mandatory 12 SMT-floor-2-rf-802.11a
-config rf-profile data-rates 802.11a mandatory 24 SMT-floor-2-rf-802.11a
-config rf-profile data-rates 802.11a disabled 6 SMT-floor-2-rf-802.11a
-config rf-profile data-rates 802.11a disabled 9 SMT-floor-2-rf-802.11a
-config rf-profile data-rates 802.11a supported 18 SMT-floor-2-rf-802.11a
-config rf-profile data-rates 802.11a supported 36 SMT-floor-2-rf-802.11a
-config rf-profile data-rates 802.11a supported 48 SMT-floor-2-rf-802.11a
-config rf-profile data-rates 802.11a supported 54 SMT-floor-2-rf-802.11a
-config rf-profile tx-power-min 10 SMT-floor-2-rf-802.11a
-config rf-profile coverage data -70  SMT-floor-2-rf-802.11a
-config rf-profile coverage voice -65  SMT-floor-2-rf-802.11a
-config rf-profile create 802.11a SMT-floor-3-rf-802.11a
-config rf-profile description SMT-floor-3-rf-802.11a
-config rf-profile data-rates 802.11a mandatory 12 SMT-floor-3-rf-802.11a
-config rf-profile data-rates 802.11a mandatory 24 SMT-floor-3-rf-802.11a
-config rf-profile data-rates 802.11a disabled 6 SMT-floor-3-rf-802.11a
-config rf-profile data-rates 802.11a disabled 9 SMT-floor-3-rf-802.11a
-config rf-profile data-rates 802.11a supported 18 SMT-floor-3-rf-802.11a
-config rf-profile data-rates 802.11a supported 36 SMT-floor-3-rf-802.11a
-config rf-profile data-rates 802.11a supported 48 SMT-floor-3-rf-802.11a
-config rf-profile data-rates 802.11a supported 54 SMT-floor-3-rf-802.11a
-config rf-profile tx-power-min 10 SMT-floor-3-rf-802.11a
-config rf-profile coverage data -70  SMT-floor-3-rf-802.11a
-config rf-profile coverage voice -65  SMT-floor-3-rf-802.11a
-config rf-profile create 802.11a SMT-floor-4-rf-802.11a
-config rf-profile description SMT-floor-4-rf-802.11a
-config rf-profile data-rates 802.11a mandatory 12 SMT-floor-4-rf-802.11a
-config rf-profile data-rates 802.11a mandatory 24 SMT-floor-4-rf-802.11a
-config rf-profile data-rates 802.11a disabled 6 SMT-floor-4-rf-802.11a
-config rf-profile data-rates 802.11a disabled 9 SMT-floor-4-rf-802.11a
-config rf-profile data-rates 802.11a supported 18 SMT-floor-4-rf-802.11a
-config rf-profile data-rates 802.11a supported 36 SMT-floor-4-rf-802.11a
-config rf-profile data-rates 802.11a supported 48 SMT-floor-4-rf-802.11a
-config rf-profile data-rates 802.11a supported 54 SMT-floor-4-rf-802.11a
-config rf-profile tx-power-min 10 SMT-floor-4-rf-802.11a
-config rf-profile coverage data -70  SMT-floor-4-rf-802.11a
-config rf-profile coverage voice -65  SMT-floor-4-rf-802.11a
-config rf-profile create 802.11a SMT-floor-5-rf-802.11a
-config rf-profile description SMT-floor-5-rf-802.11a
-config rf-profile data-rates 802.11a mandatory 12 SMT-floor-5-rf-802.11a
-config rf-profile data-rates 802.11a mandatory 24 SMT-floor-5-rf-802.11a
-config rf-profile data-rates 802.11a disabled 6 SMT-floor-5-rf-802.11a
-config rf-profile data-rates 802.11a disabled 9 SMT-floor-5-rf-802.11a
-config rf-profile data-rates 802.11a supported 18 SMT-floor-5-rf-802.11a
-config rf-profile data-rates 802.11a supported 36 SMT-floor-5-rf-802.11a
-config rf-profile data-rates 802.11a supported 48 SMT-floor-5-rf-802.11a
-config rf-profile data-rates 802.11a supported 54 SMT-floor-5-rf-802.11a
-config rf-profile tx-power-min 10 SMT-floor-5-rf-802.11a
-config rf-profile coverage data -70  SMT-floor-5-rf-802.11a
-config rf-profile coverage voice -65  SMT-floor-5-rf-802.11a
-config rf-profile create 802.11a BRD-floor-1-rf-802.11a
-config rf-profile description BRD-floor-1-rf-802.11a
-config rf-profile data-rates 802.11a mandatory 12 BRD-floor-1-rf-802.11a
-config rf-profile data-rates 802.11a mandatory 24 BRD-floor-1-rf-802.11a
-config rf-profile data-rates 802.11a disabled 6 BRD-floor-1-rf-802.11a
-config rf-profile data-rates 802.11a disabled 9 BRD-floor-1-rf-802.11a
-config rf-profile data-rates 802.11a supported 18 BRD-floor-1-rf-802.11a
-config rf-profile data-rates 802.11a supported 36 BRD-floor-1-rf-802.11a
-config rf-profile data-rates 802.11a supported 48 BRD-floor-1-rf-802.11a
-config rf-profile data-rates 802.11a supported 54 BRD-floor-1-rf-802.11a
-config rf-profile tx-power-min 10 BRD-floor-1-rf-802.11a
-config rf-profile coverage data -70  BRD-floor-1-rf-802.11a
-config rf-profile coverage voice -65  BRD-floor-1-rf-802.11a
-config rf-profile create 802.11a BRD-floor-2-rf-802.11a
-config rf-profile description BRD-floor-2-rf-802.11a
-config rf-profile data-rates 802.11a mandatory 12 BRD-floor-2-rf-802.11a
-config rf-profile data-rates 802.11a mandatory 24 BRD-floor-2-rf-802.11a
-config rf-profile data-rates 802.11a disabled 6 BRD-floor-2-rf-802.11a
-config rf-profile data-rates 802.11a disabled 9 BRD-floor-2-rf-802.11a
-config rf-profile data-rates 802.11a supported 18 BRD-floor-2-rf-802.11a
-config rf-profile data-rates 802.11a supported 36 BRD-floor-2-rf-802.11a
-config rf-profile data-rates 802.11a supported 48 BRD-floor-2-rf-802.11a
-config rf-profile data-rates 802.11a supported 54 BRD-floor-2-rf-802.11a
-config rf-profile tx-power-min 10 BRD-floor-2-rf-802.11a
-config rf-profile coverage data -70  BRD-floor-2-rf-802.11a
-config rf-profile coverage voice -65  BRD-floor-2-rf-802.11a
-config rf-profile create 802.11a BRD-floor-3-rf-802.11a
-config rf-profile description BRD-floor-3-rf-802.11a
-config rf-profile data-rates 802.11a mandatory 12 BRD-floor-3-rf-802.11a
-config rf-profile data-rates 802.11a mandatory 24 BRD-floor-3-rf-802.11a
-config rf-profile data-rates 802.11a disabled 6 BRD-floor-3-rf-802.11a
-config rf-profile data-rates 802.11a disabled 9 BRD-floor-3-rf-802.11a
-config rf-profile data-rates 802.11a supported 18 BRD-floor-3-rf-802.11a
-config rf-profile data-rates 802.11a supported 36 BRD-floor-3-rf-802.11a
-config rf-profile data-rates 802.11a supported 48 BRD-floor-3-rf-802.11a
-config rf-profile data-rates 802.11a supported 54 BRD-floor-3-rf-802.11a
-config rf-profile tx-power-min 10 BRD-floor-3-rf-802.11a
-config rf-profile coverage data -70  BRD-floor-3-rf-802.11a
-config rf-profile coverage voice -65  BRD-floor-3-rf-802.11a
-config rf-profile create 802.11a BRD-floor-4-rf-802.11a
-config rf-profile description BRD-floor-4-rf-802.11a
-config rf-profile data-rates 802.11a mandatory 12 BRD-floor-4-rf-802.11a
-config rf-profile data-rates 802.11a mandatory 24 BRD-floor-4-rf-802.11a
-config rf-profile data-rates 802.11a disabled 6 BRD-floor-4-rf-802.11a
-config rf-profile data-rates 802.11a disabled 9 BRD-floor-4-rf-802.11a
-config rf-profile data-rates 802.11a supported 18 BRD-floor-4-rf-802.11a
-config rf-profile data-rates 802.11a supported 36 BRD-floor-4-rf-802.11a
-config rf-profile data-rates 802.11a supported 48 BRD-floor-4-rf-802.11a
-config rf-profile data-rates 802.11a supported 54 BRD-floor-4-rf-802.11a
-config rf-profile tx-power-min 10 BRD-floor-4-rf-802.11a
-config rf-profile coverage data -70  BRD-floor-4-rf-802.11a
-config rf-profile coverage voice -65  BRD-floor-4-rf-802.11a
-config rf-profile create 802.11a BRD-floor-5-rf-802.11a
-config rf-profile description BRD-floor-5-rf-802.11a
-config rf-profile data-rates 802.11a mandatory 12 BRD-floor-5-rf-802.11a
-config rf-profile data-rates 802.11a mandatory 24 BRD-floor-5-rf-802.11a
-config rf-profile data-rates 802.11a disabled 6 BRD-floor-5-rf-802.11a
-config rf-profile data-rates 802.11a disabled 9 BRD-floor-5-rf-802.11a
-config rf-profile data-rates 802.11a supported 18 BRD-floor-5-rf-802.11a
-config rf-profile data-rates 802.11a supported 36 BRD-floor-5-rf-802.11a
-config rf-profile data-rates 802.11a supported 48 BRD-floor-5-rf-802.11a
-config rf-profile data-rates 802.11a supported 54 BRD-floor-5-rf-802.11a
-config rf-profile tx-power-min 10 BRD-floor-5-rf-802.11a
-config rf-profile coverage data -70  BRD-floor-5-rf-802.11a
-config rf-profile coverage voice -65  BRD-floor-5-rf-802.11a
-config rf-profile create 802.11a BRD-floor-6-rf-802.11a
-config rf-profile description BRD-floor-6-rf-802.11a
-config rf-profile data-rates 802.11a mandatory 12 BRD-floor-6-rf-802.11a
-config rf-profile data-rates 802.11a mandatory 24 BRD-floor-6-rf-802.11a
-config rf-profile data-rates 802.11a disabled 6 BRD-floor-6-rf-802.11a
-config rf-profile data-rates 802.11a disabled 9 BRD-floor-6-rf-802.11a
-config rf-profile data-rates 802.11a supported 18 BRD-floor-6-rf-802.11a
-config rf-profile data-rates 802.11a supported 36 BRD-floor-6-rf-802.11a
-config rf-profile data-rates 802.11a supported 48 BRD-floor-6-rf-802.11a
-config rf-profile data-rates 802.11a supported 54 BRD-floor-6-rf-802.11a
-config rf-profile tx-power-min 10 BRD-floor-6-rf-802.11a
-config rf-profile coverage data -70  BRD-floor-6-rf-802.11a
-config rf-profile coverage voice -65  BRD-floor-6-rf-802.11a
-config rf-profile create 802.11a BRD-floor-7-rf-802.11a
-config rf-profile description BRD-floor-7-rf-802.11a
-config rf-profile data-rates 802.11a mandatory 12 BRD-floor-7-rf-802.11a
-config rf-profile data-rates 802.11a mandatory 24 BRD-floor-7-rf-802.11a
-config rf-profile data-rates 802.11a disabled 6 BRD-floor-7-rf-802.11a
-config rf-profile data-rates 802.11a disabled 9 BRD-floor-7-rf-802.11a
-config rf-profile data-rates 802.11a supported 18 BRD-floor-7-rf-802.11a
-config rf-profile data-rates 802.11a supported 36 BRD-floor-7-rf-802.11a
-config rf-profile data-rates 802.11a supported 48 BRD-floor-7-rf-802.11a
-config rf-profile data-rates 802.11a supported 54 BRD-floor-7-rf-802.11a
-config rf-profile tx-power-min 10 BRD-floor-7-rf-802.11a
-config rf-profile coverage data -70  BRD-floor-7-rf-802.11a
-config rf-profile coverage voice -65  BRD-floor-7-rf-802.11a
-config rf-profile create 802.11a SHP-floor-1-rf-802.11a
-config rf-profile description SHP-floor-1-rf-802.11a
-config rf-profile data-rates 802.11a mandatory 12 SHP-floor-1-rf-802.11a
-config rf-profile data-rates 802.11a mandatory 24 SHP-floor-1-rf-802.11a
-config rf-profile data-rates 802.11a disabled 6 SHP-floor-1-rf-802.11a
-config rf-profile data-rates 802.11a disabled 9 SHP-floor-1-rf-802.11a
-config rf-profile data-rates 802.11a supported 18 SHP-floor-1-rf-802.11a
-config rf-profile data-rates 802.11a supported 36 SHP-floor-1-rf-802.11a
-config rf-profile data-rates 802.11a supported 48 SHP-floor-1-rf-802.11a
-config rf-profile data-rates 802.11a supported 54 SHP-floor-1-rf-802.11a
-config rf-profile tx-power-min 10 SHP-floor-1-rf-802.11a
-config rf-profile coverage data -70  SHP-floor-1-rf-802.11a
-config rf-profile coverage voice -65  SHP-floor-1-rf-802.11a
-config rf-profile create 802.11a SHP-floor-2-rf-802.11a
-config rf-profile description SHP-floor-2-rf-802.11a
-config rf-profile data-rates 802.11a mandatory 12 SHP-floor-2-rf-802.11a
-config rf-profile data-rates 802.11a mandatory 24 SHP-floor-2-rf-802.11a
-config rf-profile data-rates 802.11a disabled 6 SHP-floor-2-rf-802.11a
-config rf-profile data-rates 802.11a disabled 9 SHP-floor-2-rf-802.11a
-config rf-profile data-rates 802.11a supported 18 SHP-floor-2-rf-802.11a
-config rf-profile data-rates 802.11a supported 36 SHP-floor-2-rf-802.11a
-config rf-profile data-rates 802.11a supported 48 SHP-floor-2-rf-802.11a
-config rf-profile data-rates 802.11a supported 54 SHP-floor-2-rf-802.11a
-config rf-profile tx-power-min 10 SHP-floor-2-rf-802.11a
-config rf-profile coverage data -70  SHP-floor-2-rf-802.11a
-config rf-profile coverage voice -65  SHP-floor-2-rf-802.11a
-config rf-profile create 802.11a SHP-floor-3-rf-802.11a
-config rf-profile description SHP-floor-3-rf-802.11a
-config rf-profile data-rates 802.11a mandatory 12 SHP-floor-3-rf-802.11a
-config rf-profile data-rates 802.11a mandatory 24 SHP-floor-3-rf-802.11a
-config rf-profile data-rates 802.11a disabled 6 SHP-floor-3-rf-802.11a
-config rf-profile data-rates 802.11a disabled 9 SHP-floor-3-rf-802.11a
-config rf-profile data-rates 802.11a supported 18 SHP-floor-3-rf-802.11a
-config rf-profile data-rates 802.11a supported 36 SHP-floor-3-rf-802.11a
-config rf-profile data-rates 802.11a supported 48 SHP-floor-3-rf-802.11a
-config rf-profile data-rates 802.11a supported 54 SHP-floor-3-rf-802.11a
-config rf-profile tx-power-min 10 SHP-floor-3-rf-802.11a
-config rf-profile coverage data -70  SHP-floor-3-rf-802.11a
-config rf-profile coverage voice -65  SHP-floor-3-rf-802.11a
-config rf-profile create 802.11a SHP-floor-4-rf-802.11a
-config rf-profile description SHP-floor-4-rf-802.11a
-config rf-profile data-rates 802.11a mandatory 12 SHP-floor-4-rf-802.11a
-config rf-profile data-rates 802.11a mandatory 24 SHP-floor-4-rf-802.11a
-config rf-profile data-rates 802.11a disabled 6 SHP-floor-4-rf-802.11a
-config rf-profile data-rates 802.11a disabled 9 SHP-floor-4-rf-802.11a
-config rf-profile data-rates 802.11a supported 18 SHP-floor-4-rf-802.11a
-config rf-profile data-rates 802.11a supported 36 SHP-floor-4-rf-802.11a
-config rf-profile data-rates 802.11a supported 48 SHP-floor-4-rf-802.11a
-config rf-profile data-rates 802.11a supported 54 SHP-floor-4-rf-802.11a
-config rf-profile tx-power-min 10 SHP-floor-4-rf-802.11a
-config rf-profile coverage data -70  SHP-floor-4-rf-802.11a
-config rf-profile coverage voice -65  SHP-floor-4-rf-802.11a
-config rf-profile create 802.11a SHP-floor-5-rf-802.11a
-config rf-profile description SHP-floor-5-rf-802.11a
-config rf-profile data-rates 802.11a mandatory 12 SHP-floor-5-rf-802.11a
-config rf-profile data-rates 802.11a mandatory 24 SHP-floor-5-rf-802.11a
-config rf-profile data-rates 802.11a disabled 6 SHP-floor-5-rf-802.11a
-config rf-profile data-rates 802.11a disabled 9 SHP-floor-5-rf-802.11a
-config rf-profile data-rates 802.11a supported 18 SHP-floor-5-rf-802.11a
-config rf-profile data-rates 802.11a supported 36 SHP-floor-5-rf-802.11a
-config rf-profile data-rates 802.11a supported 48 SHP-floor-5-rf-802.11a
-config rf-profile data-rates 802.11a supported 54 SHP-floor-5-rf-802.11a
-config rf-profile tx-power-min 10 SHP-floor-5-rf-802.11a
-config rf-profile coverage data -70  SHP-floor-5-rf-802.11a
-config rf-profile coverage voice -65  SHP-floor-5-rf-802.11a
-config rf-profile create 802.11a SHP-floor-6-rf-802.11a
-config rf-profile description SHP-floor-6-rf-802.11a
-config rf-profile data-rates 802.11a mandatory 12 SHP-floor-6-rf-802.11a
-config rf-profile data-rates 802.11a mandatory 24 SHP-floor-6-rf-802.11a
-config rf-profile data-rates 802.11a disabled 6 SHP-floor-6-rf-802.11a
-config rf-profile data-rates 802.11a disabled 9 SHP-floor-6-rf-802.11a
-config rf-profile data-rates 802.11a supported 18 SHP-floor-6-rf-802.11a
-config rf-profile data-rates 802.11a supported 36 SHP-floor-6-rf-802.11a
-config rf-profile data-rates 802.11a supported 48 SHP-floor-6-rf-802.11a
-config rf-profile data-rates 802.11a supported 54 SHP-floor-6-rf-802.11a
-config rf-profile tx-power-min 10 SHP-floor-6-rf-802.11a
-config rf-profile coverage data -70  SHP-floor-6-rf-802.11a
-config rf-profile coverage voice -65  SHP-floor-6-rf-802.11a
-config rf-profile create 802.11a FLT-floor-1-rf-802.11a
-config rf-profile description FLT-floor-1-rf-802.11a
-config rf-profile data-rates 802.11a mandatory 12 FLT-floor-1-rf-802.11a
-config rf-profile data-rates 802.11a mandatory 24 FLT-floor-1-rf-802.11a
-config rf-profile data-rates 802.11a disabled 6 FLT-floor-1-rf-802.11a
-config rf-profile data-rates 802.11a disabled 9 FLT-floor-1-rf-802.11a
-config rf-profile data-rates 802.11a supported 18 FLT-floor-1-rf-802.11a
-config rf-profile data-rates 802.11a supported 36 FLT-floor-1-rf-802.11a
-config rf-profile data-rates 802.11a supported 48 FLT-floor-1-rf-802.11a
-config rf-profile data-rates 802.11a supported 54 FLT-floor-1-rf-802.11a
-config rf-profile tx-power-min 10 FLT-floor-1-rf-802.11a
-config rf-profile coverage data -70  FLT-floor-1-rf-802.11a
-config rf-profile coverage voice -65  FLT-floor-1-rf-802.11a
-config rf-profile create 802.11a FLT-floor-2-rf-802.11a
-config rf-profile description FLT-floor-2-rf-802.11a
-config rf-profile data-rates 802.11a mandatory 12 FLT-floor-2-rf-802.11a
-config rf-profile data-rates 802.11a mandatory 24 FLT-floor-2-rf-802.11a
-config rf-profile data-rates 802.11a disabled 6 FLT-floor-2-rf-802.11a
-config rf-profile data-rates 802.11a disabled 9 FLT-floor-2-rf-802.11a
-config rf-profile data-rates 802.11a supported 18 FLT-floor-2-rf-802.11a
-config rf-profile data-rates 802.11a supported 36 FLT-floor-2-rf-802.11a
-config rf-profile data-rates 802.11a supported 48 FLT-floor-2-rf-802.11a
-config rf-profile data-rates 802.11a supported 54 FLT-floor-2-rf-802.11a
-config rf-profile tx-power-min 10 FLT-floor-2-rf-802.11a
-config rf-profile coverage data -70  FLT-floor-2-rf-802.11a
-config rf-profile coverage voice -65  FLT-floor-2-rf-802.11a
-config rf-profile create 802.11a FLT-floor-3-rf-802.11a
-config rf-profile description FLT-floor-3-rf-802.11a
-config rf-profile data-rates 802.11a mandatory 12 FLT-floor-3-rf-802.11a
-config rf-profile data-rates 802.11a mandatory 24 FLT-floor-3-rf-802.11a
-config rf-profile data-rates 802.11a disabled 6 FLT-floor-3-rf-802.11a
-config rf-profile data-rates 802.11a disabled 9 FLT-floor-3-rf-802.11a
-config rf-profile data-rates 802.11a supported 18 FLT-floor-3-rf-802.11a
-config rf-profile data-rates 802.11a supported 36 FLT-floor-3-rf-802.11a
-config rf-profile data-rates 802.11a supported 48 FLT-floor-3-rf-802.11a
-config rf-profile data-rates 802.11a supported 54 FLT-floor-3-rf-802.11a
-config rf-profile tx-power-min 10 FLT-floor-3-rf-802.11a
-config rf-profile coverage data -70  FLT-floor-3-rf-802.11a
-config rf-profile coverage voice -65  FLT-floor-3-rf-802.11a
-config rf-profile create 802.11a CEN-floor-1-rf-802.11a
-config rf-profile description CEN-floor-1-rf-802.11a
-config rf-profile data-rates 802.11a mandatory 12 CEN-floor-1-rf-802.11a
-config rf-profile data-rates 802.11a mandatory 24 CEN-floor-1-rf-802.11a
-config rf-profile data-rates 802.11a disabled 6 CEN-floor-1-rf-802.11a
-config rf-profile data-rates 802.11a disabled 9 CEN-floor-1-rf-802.11a
-config rf-profile data-rates 802.11a supported 18 CEN-floor-1-rf-802.11a
-config rf-profile data-rates 802.11a supported 36 CEN-floor-1-rf-802.11a
-config rf-profile data-rates 802.11a supported 48 CEN-floor-1-rf-802.11a
-config rf-profile data-rates 802.11a supported 54 CEN-floor-1-rf-802.11a
-config rf-profile tx-power-min 10 CEN-floor-1-rf-802.11a
-config rf-profile coverage data -70  CEN-floor-1-rf-802.11a
-config rf-profile coverage voice -65  CEN-floor-1-rf-802.11a
-config rf-profile create 802.11a CEN-floor-2-rf-802.11a
-config rf-profile description CEN-floor-2-rf-802.11a
-config rf-profile data-rates 802.11a mandatory 12 CEN-floor-2-rf-802.11a
-config rf-profile data-rates 802.11a mandatory 24 CEN-floor-2-rf-802.11a
-config rf-profile data-rates 802.11a disabled 6 CEN-floor-2-rf-802.11a
-config rf-profile data-rates 802.11a disabled 9 CEN-floor-2-rf-802.11a
-config rf-profile data-rates 802.11a supported 18 CEN-floor-2-rf-802.11a
-config rf-profile data-rates 802.11a supported 36 CEN-floor-2-rf-802.11a
-config rf-profile data-rates 802.11a supported 48 CEN-floor-2-rf-802.11a
-config rf-profile data-rates 802.11a supported 54 CEN-floor-2-rf-802.11a
-config rf-profile tx-power-min 10 CEN-floor-2-rf-802.11a
-config rf-profile coverage data -70  CEN-floor-2-rf-802.11a
-config rf-profile coverage voice -65  CEN-floor-2-rf-802.11a
-config rf-profile create 802.11a CEN-floor-3-rf-802.11a
-config rf-profile description CEN-floor-3-rf-802.11a
-config rf-profile data-rates 802.11a mandatory 12 CEN-floor-3-rf-802.11a
-config rf-profile data-rates 802.11a mandatory 24 CEN-floor-3-rf-802.11a
-config rf-profile data-rates 802.11a disabled 6 CEN-floor-3-rf-802.11a
-config rf-profile data-rates 802.11a disabled 9 CEN-floor-3-rf-802.11a
-config rf-profile data-rates 802.11a supported 18 CEN-floor-3-rf-802.11a
-config rf-profile data-rates 802.11a supported 36 CEN-floor-3-rf-802.11a
-config rf-profile data-rates 802.11a supported 48 CEN-floor-3-rf-802.11a
-config rf-profile data-rates 802.11a supported 54 CEN-floor-3-rf-802.11a
-config rf-profile tx-power-min 10 CEN-floor-3-rf-802.11a
-config rf-profile coverage data -70  CEN-floor-3-rf-802.11a
-config rf-profile coverage voice -65  CEN-floor-3-rf-802.11a
-config rf-profile create 802.11a CEN-floor-4-rf-802.11a
-config rf-profile description CEN-floor-4-rf-802.11a
-config rf-profile data-rates 802.11a mandatory 12 CEN-floor-4-rf-802.11a
-config rf-profile data-rates 802.11a mandatory 24 CEN-floor-4-rf-802.11a
-config rf-profile data-rates 802.11a disabled 6 CEN-floor-4-rf-802.11a
-config rf-profile data-rates 802.11a disabled 9 CEN-floor-4-rf-802.11a
-config rf-profile data-rates 802.11a supported 18 CEN-floor-4-rf-802.11a
-config rf-profile data-rates 802.11a supported 36 CEN-floor-4-rf-802.11a
-config rf-profile data-rates 802.11a supported 48 CEN-floor-4-rf-802.11a
-config rf-profile data-rates 802.11a supported 54 CEN-floor-4-rf-802.11a
-config rf-profile tx-power-min 10 CEN-floor-4-rf-802.11a
-config rf-profile coverage data -70  CEN-floor-4-rf-802.11a
-config rf-profile coverage voice -65  CEN-floor-4-rf-802.11a
-config rf-profile create 802.11a GPL-floor-2-rf-802.11a
-config rf-profile description GPL-floor-2-rf-802.11a
-config rf-profile data-rates 802.11a mandatory 12 GPL-floor-2-rf-802.11a
-config rf-profile data-rates 802.11a mandatory 24 GPL-floor-2-rf-802.11a
-config rf-profile data-rates 802.11a disabled 6 GPL-floor-2-rf-802.11a
-config rf-profile data-rates 802.11a disabled 9 GPL-floor-2-rf-802.11a
-config rf-profile data-rates 802.11a supported 18 GPL-floor-2-rf-802.11a
-config rf-profile data-rates 802.11a supported 36 GPL-floor-2-rf-802.11a
-config rf-profile data-rates 802.11a supported 48 GPL-floor-2-rf-802.11a
-config rf-profile data-rates 802.11a supported 54 GPL-floor-2-rf-802.11a
-config rf-profile tx-power-min 10 GPL-floor-2-rf-802.11a
-config rf-profile coverage data -70  GPL-floor-2-rf-802.11a
-config rf-profile coverage voice -65  GPL-floor-2-rf-802.11a
-config rf-profile create 802.11a EPL-floor-1-rf-802.11a
-config rf-profile description EPL-floor-1-rf-802.11a
-config rf-profile data-rates 802.11a mandatory 12 EPL-floor-1-rf-802.11a
-config rf-profile data-rates 802.11a mandatory 24 EPL-floor-1-rf-802.11a
-config rf-profile data-rates 802.11a disabled 6 EPL-floor-1-rf-802.11a
-config rf-profile data-rates 802.11a disabled 9 EPL-floor-1-rf-802.11a
-config rf-profile data-rates 802.11a supported 18 EPL-floor-1-rf-802.11a
-config rf-profile data-rates 802.11a supported 36 EPL-floor-1-rf-802.11a
-config rf-profile data-rates 802.11a supported 48 EPL-floor-1-rf-802.11a
-config rf-profile data-rates 802.11a supported 54 EPL-floor-1-rf-802.11a
-config rf-profile tx-power-min 10 EPL-floor-1-rf-802.11a
-config rf-profile coverage data -70  EPL-floor-1-rf-802.11a
-config rf-profile coverage voice -65  EPL-floor-1-rf-802.11a
-config rf-profile create 802.11a EPL-floor-2-rf-802.11a
-config rf-profile description EPL-floor-2-rf-802.11a
-config rf-profile data-rates 802.11a mandatory 12 EPL-floor-2-rf-802.11a
-config rf-profile data-rates 802.11a mandatory 24 EPL-floor-2-rf-802.11a
-config rf-profile data-rates 802.11a disabled 6 EPL-floor-2-rf-802.11a
-config rf-profile data-rates 802.11a disabled 9 EPL-floor-2-rf-802.11a
-config rf-profile data-rates 802.11a supported 18 EPL-floor-2-rf-802.11a
-config rf-profile data-rates 802.11a supported 36 EPL-floor-2-rf-802.11a
-config rf-profile data-rates 802.11a supported 48 EPL-floor-2-rf-802.11a
-config rf-profile data-rates 802.11a supported 54 EPL-floor-2-rf-802.11a
-config rf-profile tx-power-min 10 EPL-floor-2-rf-802.11a
-config rf-profile coverage data -70  EPL-floor-2-rf-802.11a
-config rf-profile coverage voice -65  EPL-floor-2-rf-802.11a
-config rf-profile create 802.11a EPL-floor-3-rf-802.11a
-config rf-profile description EPL-floor-3-rf-802.11a
-config rf-profile data-rates 802.11a mandatory 12 EPL-floor-3-rf-802.11a
-config rf-profile data-rates 802.11a mandatory 24 EPL-floor-3-rf-802.11a
-config rf-profile data-rates 802.11a disabled 6 EPL-floor-3-rf-802.11a
-config rf-profile data-rates 802.11a disabled 9 EPL-floor-3-rf-802.11a
-config rf-profile data-rates 802.11a supported 18 EPL-floor-3-rf-802.11a
-config rf-profile data-rates 802.11a supported 36 EPL-floor-3-rf-802.11a
-config rf-profile data-rates 802.11a supported 48 EPL-floor-3-rf-802.11a
-config rf-profile data-rates 802.11a supported 54 EPL-floor-3-rf-802.11a
-config rf-profile tx-power-min 10 EPL-floor-3-rf-802.11a
-config rf-profile coverage data -70  EPL-floor-3-rf-802.11a
-config rf-profile coverage voice -65  EPL-floor-3-rf-802.11a
-config rf-profile create 802.11a EPL-floor-4-rf-802.11a
-config rf-profile description EPL-floor-4-rf-802.11a
-config rf-profile data-rates 802.11a mandatory 12 EPL-floor-4-rf-802.11a
-config rf-profile data-rates 802.11a mandatory 24 EPL-floor-4-rf-802.11a
-config rf-profile data-rates 802.11a disabled 6 EPL-floor-4-rf-802.11a
-config rf-profile data-rates 802.11a disabled 9 EPL-floor-4-rf-802.11a
-config rf-profile data-rates 802.11a supported 18 EPL-floor-4-rf-802.11a
-config rf-profile data-rates 802.11a supported 36 EPL-floor-4-rf-802.11a
-config rf-profile data-rates 802.11a supported 48 EPL-floor-4-rf-802.11a
-config rf-profile data-rates 802.11a supported 54 EPL-floor-4-rf-802.11a
-config rf-profile tx-power-min 10 EPL-floor-4-rf-802.11a
-config rf-profile coverage data -70  EPL-floor-4-rf-802.11a
-config rf-profile coverage voice -65  EPL-floor-4-rf-802.11a
-config rf-profile create 802.11a EPL-floor-5-rf-802.11a
-config rf-profile description EPL-floor-5-rf-802.11a
-config rf-profile data-rates 802.11a mandatory 12 EPL-floor-5-rf-802.11a
-config rf-profile data-rates 802.11a mandatory 24 EPL-floor-5-rf-802.11a
-config rf-profile data-rates 802.11a disabled 6 EPL-floor-5-rf-802.11a
-config rf-profile data-rates 802.11a disabled 9 EPL-floor-5-rf-802.11a
-config rf-profile data-rates 802.11a supported 18 EPL-floor-5-rf-802.11a
-config rf-profile data-rates 802.11a supported 36 EPL-floor-5-rf-802.11a
-config rf-profile data-rates 802.11a supported 48 EPL-floor-5-rf-802.11a
-config rf-profile data-rates 802.11a supported 54 EPL-floor-5-rf-802.11a
-config rf-profile tx-power-min 10 EPL-floor-5-rf-802.11a
-config rf-profile coverage data -70  EPL-floor-5-rf-802.11a
-config rf-profile coverage voice -65  EPL-floor-5-rf-802.11a
-config rf-profile create 802.11a WPL-floor-1-rf-802.11a
-config rf-profile description WPL-floor-1-rf-802.11a
-config rf-profile data-rates 802.11a mandatory 12 WPL-floor-1-rf-802.11a
-config rf-profile data-rates 802.11a mandatory 24 WPL-floor-1-rf-802.11a
-config rf-profile data-rates 802.11a disabled 6 WPL-floor-1-rf-802.11a
-config rf-profile data-rates 802.11a disabled 9 WPL-floor-1-rf-802.11a
-config rf-profile data-rates 802.11a supported 18 WPL-floor-1-rf-802.11a
-config rf-profile data-rates 802.11a supported 36 WPL-floor-1-rf-802.11a
-config rf-profile data-rates 802.11a supported 48 WPL-floor-1-rf-802.11a
-config rf-profile data-rates 802.11a supported 54 WPL-floor-1-rf-802.11a
-config rf-profile tx-power-min 10 WPL-floor-1-rf-802.11a
-config rf-profile coverage data -70  WPL-floor-1-rf-802.11a
-config rf-profile coverage voice -65  WPL-floor-1-rf-802.11a
-config rf-profile create 802.11a WPL-floor-2-rf-802.11a
-config rf-profile description WPL-floor-2-rf-802.11a
-config rf-profile data-rates 802.11a mandatory 12 WPL-floor-2-rf-802.11a
-config rf-profile data-rates 802.11a mandatory 24 WPL-floor-2-rf-802.11a
-config rf-profile data-rates 802.11a disabled 6 WPL-floor-2-rf-802.11a
-config rf-profile data-rates 802.11a disabled 9 WPL-floor-2-rf-802.11a
-config rf-profile data-rates 802.11a supported 18 WPL-floor-2-rf-802.11a
-config rf-profile data-rates 802.11a supported 36 WPL-floor-2-rf-802.11a
-config rf-profile data-rates 802.11a supported 48 WPL-floor-2-rf-802.11a
-config rf-profile data-rates 802.11a supported 54 WPL-floor-2-rf-802.11a
-config rf-profile tx-power-min 10 WPL-floor-2-rf-802.11a
-config rf-profile coverage data -70  WPL-floor-2-rf-802.11a
-config rf-profile coverage voice -65  WPL-floor-2-rf-802.11a
-config rf-profile create 802.11a WPL-floor-3-rf-802.11a
-config rf-profile description WPL-floor-3-rf-802.11a
-config rf-profile data-rates 802.11a mandatory 12 WPL-floor-3-rf-802.11a
-config rf-profile data-rates 802.11a mandatory 24 WPL-floor-3-rf-802.11a
-config rf-profile data-rates 802.11a disabled 6 WPL-floor-3-rf-802.11a
-config rf-profile data-rates 802.11a disabled 9 WPL-floor-3-rf-802.11a
-config rf-profile data-rates 802.11a supported 18 WPL-floor-3-rf-802.11a
-config rf-profile data-rates 802.11a supported 36 WPL-floor-3-rf-802.11a
-config rf-profile data-rates 802.11a supported 48 WPL-floor-3-rf-802.11a
-config rf-profile data-rates 802.11a supported 54 WPL-floor-3-rf-802.11a
-config rf-profile tx-power-min 10 WPL-floor-3-rf-802.11a
-config rf-profile coverage data -70  WPL-floor-3-rf-802.11a
-config rf-profile coverage voice -65  WPL-floor-3-rf-802.11a
-config rf-profile create 802.11a WPL-floor-4-rf-802.11a
-config rf-profile description WPL-floor-4-rf-802.11a
-config rf-profile data-rates 802.11a mandatory 12 WPL-floor-4-rf-802.11a
-config rf-profile data-rates 802.11a mandatory 24 WPL-floor-4-rf-802.11a
-config rf-profile data-rates 802.11a disabled 6 WPL-floor-4-rf-802.11a
-config rf-profile data-rates 802.11a disabled 9 WPL-floor-4-rf-802.11a
-config rf-profile data-rates 802.11a supported 18 WPL-floor-4-rf-802.11a
-config rf-profile data-rates 802.11a supported 36 WPL-floor-4-rf-802.11a
-config rf-profile data-rates 802.11a supported 48 WPL-floor-4-rf-802.11a
-config rf-profile data-rates 802.11a supported 54 WPL-floor-4-rf-802.11a
-config rf-profile tx-power-min 10 WPL-floor-4-rf-802.11a
-config rf-profile coverage data -70  WPL-floor-4-rf-802.11a
-config rf-profile coverage voice -65  WPL-floor-4-rf-802.11a
-config rf-profile create 802.11a WPL-floor-5-rf-802.11a
-config rf-profile description WPL-floor-5-rf-802.11a
-config rf-profile data-rates 802.11a mandatory 12 WPL-floor-5-rf-802.11a
-config rf-profile data-rates 802.11a mandatory 24 WPL-floor-5-rf-802.11a
-config rf-profile data-rates 802.11a disabled 6 WPL-floor-5-rf-802.11a
-config rf-profile data-rates 802.11a disabled 9 WPL-floor-5-rf-802.11a
-config rf-profile data-rates 802.11a supported 18 WPL-floor-5-rf-802.11a
-config rf-profile data-rates 802.11a supported 36 WPL-floor-5-rf-802.11a
-config rf-profile data-rates 802.11a supported 48 WPL-floor-5-rf-802.11a
-config rf-profile data-rates 802.11a supported 54 WPL-floor-5-rf-802.11a
-config rf-profile tx-power-min 10 WPL-floor-5-rf-802.11a
-config rf-profile coverage data -70  WPL-floor-5-rf-802.11a
-config rf-profile coverage voice -65  WPL-floor-5-rf-802.11a
-config rf-profile create 802.11a MPL-floor-1-rf-802.11a
-config rf-profile description MPL-floor-1-rf-802.11a
-config rf-profile data-rates 802.11a mandatory 12 MPL-floor-1-rf-802.11a
-config rf-profile data-rates 802.11a mandatory 24 MPL-floor-1-rf-802.11a
-config rf-profile data-rates 802.11a disabled 6 MPL-floor-1-rf-802.11a
-config rf-profile data-rates 802.11a disabled 9 MPL-floor-1-rf-802.11a
-config rf-profile data-rates 802.11a supported 18 MPL-floor-1-rf-802.11a
-config rf-profile data-rates 802.11a supported 36 MPL-floor-1-rf-802.11a
-config rf-profile data-rates 802.11a supported 48 MPL-floor-1-rf-802.11a
-config rf-profile data-rates 802.11a supported 54 MPL-floor-1-rf-802.11a
-config rf-profile tx-power-min 10 MPL-floor-1-rf-802.11a
-config rf-profile coverage data -70  MPL-floor-1-rf-802.11a
-config rf-profile coverage voice -65  MPL-floor-1-rf-802.11a
-config rf-profile create 802.11a MPL-floor-2-rf-802.11a
-config rf-profile description MPL-floor-2-rf-802.11a
-config rf-profile data-rates 802.11a mandatory 12 MPL-floor-2-rf-802.11a
-config rf-profile data-rates 802.11a mandatory 24 MPL-floor-2-rf-802.11a
-config rf-profile data-rates 802.11a disabled 6 MPL-floor-2-rf-802.11a
-config rf-profile data-rates 802.11a disabled 9 MPL-floor-2-rf-802.11a
-config rf-profile data-rates 802.11a supported 18 MPL-floor-2-rf-802.11a
-config rf-profile data-rates 802.11a supported 36 MPL-floor-2-rf-802.11a
-config rf-profile data-rates 802.11a supported 48 MPL-floor-2-rf-802.11a
-config rf-profile data-rates 802.11a supported 54 MPL-floor-2-rf-802.11a
-config rf-profile tx-power-min 10 MPL-floor-2-rf-802.11a
-config rf-profile coverage data -70  MPL-floor-2-rf-802.11a
-config rf-profile coverage voice -65  MPL-floor-2-rf-802.11a
-config rf-profile create 802.11a MPL-floor-3-rf-802.11a
-config rf-profile description MPL-floor-3-rf-802.11a
-config rf-profile data-rates 802.11a mandatory 12 MPL-floor-3-rf-802.11a
-config rf-profile data-rates 802.11a mandatory 24 MPL-floor-3-rf-802.11a
-config rf-profile data-rates 802.11a disabled 6 MPL-floor-3-rf-802.11a
-config rf-profile data-rates 802.11a disabled 9 MPL-floor-3-rf-802.11a
-config rf-profile data-rates 802.11a supported 18 MPL-floor-3-rf-802.11a
-config rf-profile data-rates 802.11a supported 36 MPL-floor-3-rf-802.11a
-config rf-profile data-rates 802.11a supported 48 MPL-floor-3-rf-802.11a
-config rf-profile data-rates 802.11a supported 54 MPL-floor-3-rf-802.11a
-config rf-profile tx-power-min 10 MPL-floor-3-rf-802.11a
-config rf-profile coverage data -70  MPL-floor-3-rf-802.11a
-config rf-profile coverage voice -65  MPL-floor-3-rf-802.11a
-config rf-profile create 802.11a MPL-floor-4-rf-802.11a
-config rf-profile description MPL-floor-4-rf-802.11a
-config rf-profile data-rates 802.11a mandatory 12 MPL-floor-4-rf-802.11a
-config rf-profile data-rates 802.11a mandatory 24 MPL-floor-4-rf-802.11a
-config rf-profile data-rates 802.11a disabled 6 MPL-floor-4-rf-802.11a
-config rf-profile data-rates 802.11a disabled 9 MPL-floor-4-rf-802.11a
-config rf-profile data-rates 802.11a supported 18 MPL-floor-4-rf-802.11a
-config rf-profile data-rates 802.11a supported 36 MPL-floor-4-rf-802.11a
-config rf-profile data-rates 802.11a supported 48 MPL-floor-4-rf-802.11a
-config rf-profile data-rates 802.11a supported 54 MPL-floor-4-rf-802.11a
-config rf-profile tx-power-min 10 MPL-floor-4-rf-802.11a
-config rf-profile coverage data -70  MPL-floor-4-rf-802.11a
-config rf-profile coverage voice -65  MPL-floor-4-rf-802.11a
-config rf-profile create 802.11a MPL-floor-5-rf-802.11a
-config rf-profile description MPL-floor-5-rf-802.11a
-config rf-profile data-rates 802.11a mandatory 12 MPL-floor-5-rf-802.11a
-config rf-profile data-rates 802.11a mandatory 24 MPL-floor-5-rf-802.11a
-config rf-profile data-rates 802.11a disabled 6 MPL-floor-5-rf-802.11a
-config rf-profile data-rates 802.11a disabled 9 MPL-floor-5-rf-802.11a
-config rf-profile data-rates 802.11a supported 18 MPL-floor-5-rf-802.11a
-config rf-profile data-rates 802.11a supported 36 MPL-floor-5-rf-802.11a
-config rf-profile data-rates 802.11a supported 48 MPL-floor-5-rf-802.11a
-config rf-profile data-rates 802.11a supported 54 MPL-floor-5-rf-802.11a
-config rf-profile tx-power-min 10 MPL-floor-5-rf-802.11a
-config rf-profile coverage data -70  MPL-floor-5-rf-802.11a
-config rf-profile coverage voice -65  MPL-floor-5-rf-802.11a
-config rf-profile create 802.11a EDC-floor-2-rf-802.11a
-config rf-profile description EDC-floor-2-rf-802.11a
-config rf-profile data-rates 802.11a mandatory 12 EDC-floor-2-rf-802.11a
-config rf-profile data-rates 802.11a mandatory 24 EDC-floor-2-rf-802.11a
-config rf-profile data-rates 802.11a disabled 6 EDC-floor-2-rf-802.11a
-config rf-profile data-rates 802.11a disabled 9 EDC-floor-2-rf-802.11a
-config rf-profile data-rates 802.11a supported 18 EDC-floor-2-rf-802.11a
-config rf-profile data-rates 802.11a supported 36 EDC-floor-2-rf-802.11a
-config rf-profile data-rates 802.11a supported 48 EDC-floor-2-rf-802.11a
-config rf-profile data-rates 802.11a supported 54 EDC-floor-2-rf-802.11a
-config rf-profile tx-power-min 10 EDC-floor-2-rf-802.11a
-config rf-profile coverage data -70  EDC-floor-2-rf-802.11a
-config rf-profile coverage voice -65  EDC-floor-2-rf-802.11a
+!!!!!!!!!!!!!!!!!!!!!!!802.11bg RF profiles!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 config rf-profile create 802.11a MCL-floor-0-rf-802.11bg
 config rf-profile description MCL-floor-0-rf-802.11bg
 config rf-profile data-rates 802.11a mandatory 12 MCL-floor-0-rf-802.11bg
@@ -3014,3 +1508,642 @@ config rf-profile data-rates 802.11a supported 54 EDC-floor-2-rf-802.11bg
 config rf-profile tx-power-min 10 EDC-floor-2-rf-802.11bg
 config rf-profile coverage data -70  EDC-floor-2-rf-802.11bg
 config rf-profile coverage voice -65  EDC-floor-2-rf-802.11bg
+!!!!!!!!!!!!!!!!!!!!!!!access-point-groups!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+config wlan apgroup add MCL-floor-0-apg
+config wlan apgroup interface-mapping add MCL-floor-0-apg 20 mc_famobile2
+config wlan apgroup interface-mapping add MCL-floor-0-apg 21 mc_famcd1
+config wlan apgroup interface-mapping add MCL-floor-0-apg 23 mchv_acc_clinical_psk
+config wlan apgroup interface-mapping add MCL-floor-0-apg 30 favoip
+config wlan apgroup interface-mapping add MCL-floor-0-apg 22 mchv_acc_ivpump
+config wlan apgroup interface-mapping add MCL-floor-0-apg 17 guest_go_nowhere
+config wlan apgroup interface-mapping add MCL-floor-0-apg 24 mchv_acc_wow
+config wlan apgroup interface-mapping add MCL-floor-0-apg 25 cast_nowhere
+config wlan apgroup add MCL-floor-1-apg
+config wlan apgroup interface-mapping add MCL-floor-1-apg 20 mc_famobile2
+config wlan apgroup interface-mapping add MCL-floor-1-apg 21 mc_famcd1
+config wlan apgroup interface-mapping add MCL-floor-1-apg 23 mchv_acc_clinical_psk
+config wlan apgroup interface-mapping add MCL-floor-1-apg 30 favoip
+config wlan apgroup interface-mapping add MCL-floor-1-apg 22 mchv_acc_ivpump
+config wlan apgroup interface-mapping add MCL-floor-1-apg 17 guest_go_nowhere
+config wlan apgroup interface-mapping add MCL-floor-1-apg 24 mchv_acc_wow
+config wlan apgroup interface-mapping add MCL-floor-1-apg 25 cast_nowhere
+config wlan apgroup add MCL-floor-2-apg
+config wlan apgroup interface-mapping add MCL-floor-2-apg 20 mc_famobile2
+config wlan apgroup interface-mapping add MCL-floor-2-apg 21 mc_famcd1
+config wlan apgroup interface-mapping add MCL-floor-2-apg 23 mchv_acc_clinical_psk
+config wlan apgroup interface-mapping add MCL-floor-2-apg 30 favoip
+config wlan apgroup interface-mapping add MCL-floor-2-apg 22 mchv_acc_ivpump
+config wlan apgroup interface-mapping add MCL-floor-2-apg 17 guest_go_nowhere
+config wlan apgroup interface-mapping add MCL-floor-2-apg 24 mchv_acc_wow
+config wlan apgroup interface-mapping add MCL-floor-2-apg 25 cast_nowhere
+config wlan apgroup add MCL-floor-3-apg
+config wlan apgroup interface-mapping add MCL-floor-3-apg 20 mc_famobile2
+config wlan apgroup interface-mapping add MCL-floor-3-apg 21 mc_famcd1
+config wlan apgroup interface-mapping add MCL-floor-3-apg 23 mchv_acc_clinical_psk
+config wlan apgroup interface-mapping add MCL-floor-3-apg 30 favoip
+config wlan apgroup interface-mapping add MCL-floor-3-apg 22 mchv_acc_ivpump
+config wlan apgroup interface-mapping add MCL-floor-3-apg 17 guest_go_nowhere
+config wlan apgroup interface-mapping add MCL-floor-3-apg 24 mchv_acc_wow
+config wlan apgroup interface-mapping add MCL-floor-3-apg 25 cast_nowhere
+config wlan apgroup add MCL-floor-4-apg
+config wlan apgroup interface-mapping add MCL-floor-4-apg 20 mc_famobile2
+config wlan apgroup interface-mapping add MCL-floor-4-apg 21 mc_famcd1
+config wlan apgroup interface-mapping add MCL-floor-4-apg 23 mchv_acc_clinical_psk
+config wlan apgroup interface-mapping add MCL-floor-4-apg 30 favoip
+config wlan apgroup interface-mapping add MCL-floor-4-apg 22 mchv_acc_ivpump
+config wlan apgroup interface-mapping add MCL-floor-4-apg 17 guest_go_nowhere
+config wlan apgroup interface-mapping add MCL-floor-4-apg 24 mchv_acc_wow
+config wlan apgroup interface-mapping add MCL-floor-4-apg 25 cast_nowhere
+config wlan apgroup add MCL-floor-5-apg
+config wlan apgroup interface-mapping add MCL-floor-5-apg 20 mc_famobile2
+config wlan apgroup interface-mapping add MCL-floor-5-apg 21 mc_famcd1
+config wlan apgroup interface-mapping add MCL-floor-5-apg 23 mchv_acc_clinical_psk
+config wlan apgroup interface-mapping add MCL-floor-5-apg 30 favoip
+config wlan apgroup interface-mapping add MCL-floor-5-apg 22 mchv_acc_ivpump
+config wlan apgroup interface-mapping add MCL-floor-5-apg 17 guest_go_nowhere
+config wlan apgroup interface-mapping add MCL-floor-5-apg 24 mchv_acc_wow
+config wlan apgroup interface-mapping add MCL-floor-5-apg 25 cast_nowhere
+config wlan apgroup add MCL-floor-6-apg
+config wlan apgroup interface-mapping add MCL-floor-6-apg 20 mc_famobile2
+config wlan apgroup interface-mapping add MCL-floor-6-apg 21 mc_famcd1
+config wlan apgroup interface-mapping add MCL-floor-6-apg 23 mchv_acc_clinical_psk
+config wlan apgroup interface-mapping add MCL-floor-6-apg 30 favoip
+config wlan apgroup interface-mapping add MCL-floor-6-apg 22 mchv_acc_ivpump
+config wlan apgroup interface-mapping add MCL-floor-6-apg 17 guest_go_nowhere
+config wlan apgroup interface-mapping add MCL-floor-6-apg 24 mchv_acc_wow
+config wlan apgroup interface-mapping add MCL-floor-6-apg 25 cast_nowhere
+config wlan apgroup add MCL-floor-7-apg
+config wlan apgroup interface-mapping add MCL-floor-7-apg 20 mc_famobile2
+config wlan apgroup interface-mapping add MCL-floor-7-apg 21 mc_famcd1
+config wlan apgroup interface-mapping add MCL-floor-7-apg 23 mchv_acc_clinical_psk
+config wlan apgroup interface-mapping add MCL-floor-7-apg 30 favoip
+config wlan apgroup interface-mapping add MCL-floor-7-apg 22 mchv_acc_ivpump
+config wlan apgroup interface-mapping add MCL-floor-7-apg 17 guest_go_nowhere
+config wlan apgroup interface-mapping add MCL-floor-7-apg 24 mchv_acc_wow
+config wlan apgroup interface-mapping add MCL-floor-7-apg 25 cast_nowhere
+config wlan apgroup add PTK-floor-0-apg
+config wlan apgroup interface-mapping add PTK-floor-0-apg 20 mc_famobile2
+config wlan apgroup interface-mapping add PTK-floor-0-apg 21 mc_famcd1
+config wlan apgroup interface-mapping add PTK-floor-0-apg 23 mchv_acc_clinical_psk
+config wlan apgroup interface-mapping add PTK-floor-0-apg 30 favoip
+config wlan apgroup interface-mapping add PTK-floor-0-apg 22 mchv_acc_ivpump
+config wlan apgroup interface-mapping add PTK-floor-0-apg 17 guest_go_nowhere
+config wlan apgroup interface-mapping add PTK-floor-0-apg 24 mchv_acc_wow
+config wlan apgroup interface-mapping add PTK-floor-0-apg 25 cast_nowhere
+config wlan apgroup add PTK-floor-1-apg
+config wlan apgroup interface-mapping add PTK-floor-1-apg 20 mc_famobile2
+config wlan apgroup interface-mapping add PTK-floor-1-apg 21 mc_famcd1
+config wlan apgroup interface-mapping add PTK-floor-1-apg 23 mchv_acc_clinical_psk
+config wlan apgroup interface-mapping add PTK-floor-1-apg 30 favoip
+config wlan apgroup interface-mapping add PTK-floor-1-apg 22 mchv_acc_ivpump
+config wlan apgroup interface-mapping add PTK-floor-1-apg 17 guest_go_nowhere
+config wlan apgroup interface-mapping add PTK-floor-1-apg 24 mchv_acc_wow
+config wlan apgroup interface-mapping add PTK-floor-1-apg 25 cast_nowhere
+config wlan apgroup add PTK-floor-2-apg
+config wlan apgroup interface-mapping add PTK-floor-2-apg 20 mc_famobile2
+config wlan apgroup interface-mapping add PTK-floor-2-apg 21 mc_famcd1
+config wlan apgroup interface-mapping add PTK-floor-2-apg 23 mchv_acc_clinical_psk
+config wlan apgroup interface-mapping add PTK-floor-2-apg 30 favoip
+config wlan apgroup interface-mapping add PTK-floor-2-apg 22 mchv_acc_ivpump
+config wlan apgroup interface-mapping add PTK-floor-2-apg 17 guest_go_nowhere
+config wlan apgroup interface-mapping add PTK-floor-2-apg 24 mchv_acc_wow
+config wlan apgroup interface-mapping add PTK-floor-2-apg 25 cast_nowhere
+config wlan apgroup add PTK-floor-3-apg
+config wlan apgroup interface-mapping add PTK-floor-3-apg 20 mc_famobile2
+config wlan apgroup interface-mapping add PTK-floor-3-apg 21 mc_famcd1
+config wlan apgroup interface-mapping add PTK-floor-3-apg 23 mchv_acc_clinical_psk
+config wlan apgroup interface-mapping add PTK-floor-3-apg 30 favoip
+config wlan apgroup interface-mapping add PTK-floor-3-apg 22 mchv_acc_ivpump
+config wlan apgroup interface-mapping add PTK-floor-3-apg 17 guest_go_nowhere
+config wlan apgroup interface-mapping add PTK-floor-3-apg 24 mchv_acc_wow
+config wlan apgroup interface-mapping add PTK-floor-3-apg 25 cast_nowhere
+config wlan apgroup add PTK-floor-4-apg
+config wlan apgroup interface-mapping add PTK-floor-4-apg 20 mc_famobile2
+config wlan apgroup interface-mapping add PTK-floor-4-apg 21 mc_famcd1
+config wlan apgroup interface-mapping add PTK-floor-4-apg 23 mchv_acc_clinical_psk
+config wlan apgroup interface-mapping add PTK-floor-4-apg 30 favoip
+config wlan apgroup interface-mapping add PTK-floor-4-apg 22 mchv_acc_ivpump
+config wlan apgroup interface-mapping add PTK-floor-4-apg 17 guest_go_nowhere
+config wlan apgroup interface-mapping add PTK-floor-4-apg 24 mchv_acc_wow
+config wlan apgroup interface-mapping add PTK-floor-4-apg 25 cast_nowhere
+config wlan apgroup add PTK-floor-5-apg
+config wlan apgroup interface-mapping add PTK-floor-5-apg 20 mc_famobile2
+config wlan apgroup interface-mapping add PTK-floor-5-apg 21 mc_famcd1
+config wlan apgroup interface-mapping add PTK-floor-5-apg 23 mchv_acc_clinical_psk
+config wlan apgroup interface-mapping add PTK-floor-5-apg 30 favoip
+config wlan apgroup interface-mapping add PTK-floor-5-apg 22 mchv_acc_ivpump
+config wlan apgroup interface-mapping add PTK-floor-5-apg 17 guest_go_nowhere
+config wlan apgroup interface-mapping add PTK-floor-5-apg 24 mchv_acc_wow
+config wlan apgroup interface-mapping add PTK-floor-5-apg 25 cast_nowhere
+config wlan apgroup add PTK-floor-6-apg
+config wlan apgroup interface-mapping add PTK-floor-6-apg 20 mc_famobile2
+config wlan apgroup interface-mapping add PTK-floor-6-apg 21 mc_famcd1
+config wlan apgroup interface-mapping add PTK-floor-6-apg 23 mchv_acc_clinical_psk
+config wlan apgroup interface-mapping add PTK-floor-6-apg 30 favoip
+config wlan apgroup interface-mapping add PTK-floor-6-apg 22 mchv_acc_ivpump
+config wlan apgroup interface-mapping add PTK-floor-6-apg 17 guest_go_nowhere
+config wlan apgroup interface-mapping add PTK-floor-6-apg 24 mchv_acc_wow
+config wlan apgroup interface-mapping add PTK-floor-6-apg 25 cast_nowhere
+config wlan apgroup add SMT-floor-0-apg
+config wlan apgroup interface-mapping add SMT-floor-0-apg 20 mc_famobile2
+config wlan apgroup interface-mapping add SMT-floor-0-apg 21 mc_famcd1
+config wlan apgroup interface-mapping add SMT-floor-0-apg 23 mchv_acc_clinical_psk
+config wlan apgroup interface-mapping add SMT-floor-0-apg 30 favoip
+config wlan apgroup interface-mapping add SMT-floor-0-apg 22 mchv_acc_ivpump
+config wlan apgroup interface-mapping add SMT-floor-0-apg 17 guest_go_nowhere
+config wlan apgroup interface-mapping add SMT-floor-0-apg 24 mchv_acc_wow
+config wlan apgroup interface-mapping add SMT-floor-0-apg 25 cast_nowhere
+config wlan apgroup add SMT-floor-1-apg
+config wlan apgroup interface-mapping add SMT-floor-1-apg 20 mc_famobile2
+config wlan apgroup interface-mapping add SMT-floor-1-apg 21 mc_famcd1
+config wlan apgroup interface-mapping add SMT-floor-1-apg 23 mchv_acc_clinical_psk
+config wlan apgroup interface-mapping add SMT-floor-1-apg 30 favoip
+config wlan apgroup interface-mapping add SMT-floor-1-apg 22 mchv_acc_ivpump
+config wlan apgroup interface-mapping add SMT-floor-1-apg 17 guest_go_nowhere
+config wlan apgroup interface-mapping add SMT-floor-1-apg 24 mchv_acc_wow
+config wlan apgroup interface-mapping add SMT-floor-1-apg 25 cast_nowhere
+config wlan apgroup add SMT-floor-2-apg
+config wlan apgroup interface-mapping add SMT-floor-2-apg 20 mc_famobile2
+config wlan apgroup interface-mapping add SMT-floor-2-apg 21 mc_famcd1
+config wlan apgroup interface-mapping add SMT-floor-2-apg 23 mchv_acc_clinical_psk
+config wlan apgroup interface-mapping add SMT-floor-2-apg 30 favoip
+config wlan apgroup interface-mapping add SMT-floor-2-apg 22 mchv_acc_ivpump
+config wlan apgroup interface-mapping add SMT-floor-2-apg 17 guest_go_nowhere
+config wlan apgroup interface-mapping add SMT-floor-2-apg 24 mchv_acc_wow
+config wlan apgroup interface-mapping add SMT-floor-2-apg 25 cast_nowhere
+config wlan apgroup add SMT-floor-3-apg
+config wlan apgroup interface-mapping add SMT-floor-3-apg 20 mc_famobile2
+config wlan apgroup interface-mapping add SMT-floor-3-apg 21 mc_famcd1
+config wlan apgroup interface-mapping add SMT-floor-3-apg 23 mchv_acc_clinical_psk
+config wlan apgroup interface-mapping add SMT-floor-3-apg 30 favoip
+config wlan apgroup interface-mapping add SMT-floor-3-apg 22 mchv_acc_ivpump
+config wlan apgroup interface-mapping add SMT-floor-3-apg 17 guest_go_nowhere
+config wlan apgroup interface-mapping add SMT-floor-3-apg 24 mchv_acc_wow
+config wlan apgroup interface-mapping add SMT-floor-3-apg 25 cast_nowhere
+config wlan apgroup add SMT-floor-4-apg
+config wlan apgroup interface-mapping add SMT-floor-4-apg 20 mc_famobile2
+config wlan apgroup interface-mapping add SMT-floor-4-apg 21 mc_famcd1
+config wlan apgroup interface-mapping add SMT-floor-4-apg 23 mchv_acc_clinical_psk
+config wlan apgroup interface-mapping add SMT-floor-4-apg 30 favoip
+config wlan apgroup interface-mapping add SMT-floor-4-apg 22 mchv_acc_ivpump
+config wlan apgroup interface-mapping add SMT-floor-4-apg 17 guest_go_nowhere
+config wlan apgroup interface-mapping add SMT-floor-4-apg 24 mchv_acc_wow
+config wlan apgroup interface-mapping add SMT-floor-4-apg 25 cast_nowhere
+config wlan apgroup add SMT-floor-5-apg
+config wlan apgroup interface-mapping add SMT-floor-5-apg 20 mc_famobile2
+config wlan apgroup interface-mapping add SMT-floor-5-apg 21 mc_famcd1
+config wlan apgroup interface-mapping add SMT-floor-5-apg 23 mchv_acc_clinical_psk
+config wlan apgroup interface-mapping add SMT-floor-5-apg 30 favoip
+config wlan apgroup interface-mapping add SMT-floor-5-apg 22 mchv_acc_ivpump
+config wlan apgroup interface-mapping add SMT-floor-5-apg 17 guest_go_nowhere
+config wlan apgroup interface-mapping add SMT-floor-5-apg 24 mchv_acc_wow
+config wlan apgroup interface-mapping add SMT-floor-5-apg 25 cast_nowhere
+config wlan apgroup add BRD-floor-1-apg
+config wlan apgroup interface-mapping add BRD-floor-1-apg 20 mc_famobile2
+config wlan apgroup interface-mapping add BRD-floor-1-apg 21 mc_famcd1
+config wlan apgroup interface-mapping add BRD-floor-1-apg 23 mchv_acc_clinical_psk
+config wlan apgroup interface-mapping add BRD-floor-1-apg 30 favoip
+config wlan apgroup interface-mapping add BRD-floor-1-apg 22 mchv_acc_ivpump
+config wlan apgroup interface-mapping add BRD-floor-1-apg 17 guest_go_nowhere
+config wlan apgroup interface-mapping add BRD-floor-1-apg 24 mchv_acc_wow
+config wlan apgroup interface-mapping add BRD-floor-1-apg 25 cast_nowhere
+config wlan apgroup add BRD-floor-2-apg
+config wlan apgroup interface-mapping add BRD-floor-2-apg 20 mc_famobile2
+config wlan apgroup interface-mapping add BRD-floor-2-apg 21 mc_famcd1
+config wlan apgroup interface-mapping add BRD-floor-2-apg 23 mchv_acc_clinical_psk
+config wlan apgroup interface-mapping add BRD-floor-2-apg 30 favoip
+config wlan apgroup interface-mapping add BRD-floor-2-apg 22 mchv_acc_ivpump
+config wlan apgroup interface-mapping add BRD-floor-2-apg 17 guest_go_nowhere
+config wlan apgroup interface-mapping add BRD-floor-2-apg 24 mchv_acc_wow
+config wlan apgroup interface-mapping add BRD-floor-2-apg 25 cast_nowhere
+config wlan apgroup add BRD-floor-3-apg
+config wlan apgroup interface-mapping add BRD-floor-3-apg 20 mc_famobile2
+config wlan apgroup interface-mapping add BRD-floor-3-apg 21 mc_famcd1
+config wlan apgroup interface-mapping add BRD-floor-3-apg 23 mchv_acc_clinical_psk
+config wlan apgroup interface-mapping add BRD-floor-3-apg 30 favoip
+config wlan apgroup interface-mapping add BRD-floor-3-apg 22 mchv_acc_ivpump
+config wlan apgroup interface-mapping add BRD-floor-3-apg 17 guest_go_nowhere
+config wlan apgroup interface-mapping add BRD-floor-3-apg 24 mchv_acc_wow
+config wlan apgroup interface-mapping add BRD-floor-3-apg 25 cast_nowhere
+config wlan apgroup add BRD-floor-4-apg
+config wlan apgroup interface-mapping add BRD-floor-4-apg 20 mc_famobile2
+config wlan apgroup interface-mapping add BRD-floor-4-apg 21 mc_famcd1
+config wlan apgroup interface-mapping add BRD-floor-4-apg 23 mchv_acc_clinical_psk
+config wlan apgroup interface-mapping add BRD-floor-4-apg 30 favoip
+config wlan apgroup interface-mapping add BRD-floor-4-apg 22 mchv_acc_ivpump
+config wlan apgroup interface-mapping add BRD-floor-4-apg 17 guest_go_nowhere
+config wlan apgroup interface-mapping add BRD-floor-4-apg 24 mchv_acc_wow
+config wlan apgroup interface-mapping add BRD-floor-4-apg 25 cast_nowhere
+config wlan apgroup add BRD-floor-5-apg
+config wlan apgroup interface-mapping add BRD-floor-5-apg 20 mc_famobile2
+config wlan apgroup interface-mapping add BRD-floor-5-apg 21 mc_famcd1
+config wlan apgroup interface-mapping add BRD-floor-5-apg 23 mchv_acc_clinical_psk
+config wlan apgroup interface-mapping add BRD-floor-5-apg 30 favoip
+config wlan apgroup interface-mapping add BRD-floor-5-apg 22 mchv_acc_ivpump
+config wlan apgroup interface-mapping add BRD-floor-5-apg 17 guest_go_nowhere
+config wlan apgroup interface-mapping add BRD-floor-5-apg 24 mchv_acc_wow
+config wlan apgroup interface-mapping add BRD-floor-5-apg 25 cast_nowhere
+config wlan apgroup add BRD-floor-6-apg
+config wlan apgroup interface-mapping add BRD-floor-6-apg 20 mc_famobile2
+config wlan apgroup interface-mapping add BRD-floor-6-apg 21 mc_famcd1
+config wlan apgroup interface-mapping add BRD-floor-6-apg 23 mchv_acc_clinical_psk
+config wlan apgroup interface-mapping add BRD-floor-6-apg 30 favoip
+config wlan apgroup interface-mapping add BRD-floor-6-apg 22 mchv_acc_ivpump
+config wlan apgroup interface-mapping add BRD-floor-6-apg 17 guest_go_nowhere
+config wlan apgroup interface-mapping add BRD-floor-6-apg 24 mchv_acc_wow
+config wlan apgroup interface-mapping add BRD-floor-6-apg 25 cast_nowhere
+config wlan apgroup add BRD-floor-7-apg
+config wlan apgroup interface-mapping add BRD-floor-7-apg 20 mc_famobile2
+config wlan apgroup interface-mapping add BRD-floor-7-apg 21 mc_famcd1
+config wlan apgroup interface-mapping add BRD-floor-7-apg 23 mchv_acc_clinical_psk
+config wlan apgroup interface-mapping add BRD-floor-7-apg 30 favoip
+config wlan apgroup interface-mapping add BRD-floor-7-apg 22 mchv_acc_ivpump
+config wlan apgroup interface-mapping add BRD-floor-7-apg 17 guest_go_nowhere
+config wlan apgroup interface-mapping add BRD-floor-7-apg 24 mchv_acc_wow
+config wlan apgroup interface-mapping add BRD-floor-7-apg 25 cast_nowhere
+config wlan apgroup add SHP-floor-1-apg
+config wlan apgroup interface-mapping add SHP-floor-1-apg 20 mc_famobile2
+config wlan apgroup interface-mapping add SHP-floor-1-apg 21 mc_famcd1
+config wlan apgroup interface-mapping add SHP-floor-1-apg 23 mchv_acc_clinical_psk
+config wlan apgroup interface-mapping add SHP-floor-1-apg 30 favoip
+config wlan apgroup interface-mapping add SHP-floor-1-apg 22 mchv_acc_ivpump
+config wlan apgroup interface-mapping add SHP-floor-1-apg 17 guest_go_nowhere
+config wlan apgroup interface-mapping add SHP-floor-1-apg 24 mchv_acc_wow
+config wlan apgroup interface-mapping add SHP-floor-1-apg 25 cast_nowhere
+config wlan apgroup add SHP-floor-2-apg
+config wlan apgroup interface-mapping add SHP-floor-2-apg 20 mc_famobile2
+config wlan apgroup interface-mapping add SHP-floor-2-apg 21 mc_famcd1
+config wlan apgroup interface-mapping add SHP-floor-2-apg 23 mchv_acc_clinical_psk
+config wlan apgroup interface-mapping add SHP-floor-2-apg 30 favoip
+config wlan apgroup interface-mapping add SHP-floor-2-apg 22 mchv_acc_ivpump
+config wlan apgroup interface-mapping add SHP-floor-2-apg 17 guest_go_nowhere
+config wlan apgroup interface-mapping add SHP-floor-2-apg 24 mchv_acc_wow
+config wlan apgroup interface-mapping add SHP-floor-2-apg 25 cast_nowhere
+config wlan apgroup add SHP-floor-3-apg
+config wlan apgroup interface-mapping add SHP-floor-3-apg 20 mc_famobile2
+config wlan apgroup interface-mapping add SHP-floor-3-apg 21 mc_famcd1
+config wlan apgroup interface-mapping add SHP-floor-3-apg 23 mchv_acc_clinical_psk
+config wlan apgroup interface-mapping add SHP-floor-3-apg 30 favoip
+config wlan apgroup interface-mapping add SHP-floor-3-apg 22 mchv_acc_ivpump
+config wlan apgroup interface-mapping add SHP-floor-3-apg 17 guest_go_nowhere
+config wlan apgroup interface-mapping add SHP-floor-3-apg 24 mchv_acc_wow
+config wlan apgroup interface-mapping add SHP-floor-3-apg 25 cast_nowhere
+config wlan apgroup add SHP-floor-4-apg
+config wlan apgroup interface-mapping add SHP-floor-4-apg 20 mc_famobile2
+config wlan apgroup interface-mapping add SHP-floor-4-apg 21 mc_famcd1
+config wlan apgroup interface-mapping add SHP-floor-4-apg 23 mchv_acc_clinical_psk
+config wlan apgroup interface-mapping add SHP-floor-4-apg 30 favoip
+config wlan apgroup interface-mapping add SHP-floor-4-apg 22 mchv_acc_ivpump
+config wlan apgroup interface-mapping add SHP-floor-4-apg 17 guest_go_nowhere
+config wlan apgroup interface-mapping add SHP-floor-4-apg 24 mchv_acc_wow
+config wlan apgroup interface-mapping add SHP-floor-4-apg 25 cast_nowhere
+config wlan apgroup add SHP-floor-5-apg
+config wlan apgroup interface-mapping add SHP-floor-5-apg 20 mc_famobile2
+config wlan apgroup interface-mapping add SHP-floor-5-apg 21 mc_famcd1
+config wlan apgroup interface-mapping add SHP-floor-5-apg 23 mchv_acc_clinical_psk
+config wlan apgroup interface-mapping add SHP-floor-5-apg 30 favoip
+config wlan apgroup interface-mapping add SHP-floor-5-apg 22 mchv_acc_ivpump
+config wlan apgroup interface-mapping add SHP-floor-5-apg 17 guest_go_nowhere
+config wlan apgroup interface-mapping add SHP-floor-5-apg 24 mchv_acc_wow
+config wlan apgroup interface-mapping add SHP-floor-5-apg 25 cast_nowhere
+config wlan apgroup add SHP-floor-6-apg
+config wlan apgroup interface-mapping add SHP-floor-6-apg 20 mc_famobile2
+config wlan apgroup interface-mapping add SHP-floor-6-apg 21 mc_famcd1
+config wlan apgroup interface-mapping add SHP-floor-6-apg 23 mchv_acc_clinical_psk
+config wlan apgroup interface-mapping add SHP-floor-6-apg 30 favoip
+config wlan apgroup interface-mapping add SHP-floor-6-apg 22 mchv_acc_ivpump
+config wlan apgroup interface-mapping add SHP-floor-6-apg 17 guest_go_nowhere
+config wlan apgroup interface-mapping add SHP-floor-6-apg 24 mchv_acc_wow
+config wlan apgroup interface-mapping add SHP-floor-6-apg 25 cast_nowhere
+config wlan apgroup add FLT-floor-1-apg
+config wlan apgroup interface-mapping add FLT-floor-1-apg 20 mc_famobile2
+config wlan apgroup interface-mapping add FLT-floor-1-apg 21 mc_famcd1
+config wlan apgroup interface-mapping add FLT-floor-1-apg 23 mchv_acc_clinical_psk
+config wlan apgroup interface-mapping add FLT-floor-1-apg 30 favoip
+config wlan apgroup interface-mapping add FLT-floor-1-apg 22 mchv_acc_ivpump
+config wlan apgroup interface-mapping add FLT-floor-1-apg 17 guest_go_nowhere
+config wlan apgroup interface-mapping add FLT-floor-1-apg 24 mchv_acc_wow
+config wlan apgroup interface-mapping add FLT-floor-1-apg 25 cast_nowhere
+config wlan apgroup add FLT-floor-2-apg
+config wlan apgroup interface-mapping add FLT-floor-2-apg 20 mc_famobile2
+config wlan apgroup interface-mapping add FLT-floor-2-apg 21 mc_famcd1
+config wlan apgroup interface-mapping add FLT-floor-2-apg 23 mchv_acc_clinical_psk
+config wlan apgroup interface-mapping add FLT-floor-2-apg 30 favoip
+config wlan apgroup interface-mapping add FLT-floor-2-apg 22 mchv_acc_ivpump
+config wlan apgroup interface-mapping add FLT-floor-2-apg 17 guest_go_nowhere
+config wlan apgroup interface-mapping add FLT-floor-2-apg 24 mchv_acc_wow
+config wlan apgroup interface-mapping add FLT-floor-2-apg 25 cast_nowhere
+config wlan apgroup add FLT-floor-3-apg
+config wlan apgroup interface-mapping add FLT-floor-3-apg 20 mc_famobile2
+config wlan apgroup interface-mapping add FLT-floor-3-apg 21 mc_famcd1
+config wlan apgroup interface-mapping add FLT-floor-3-apg 23 mchv_acc_clinical_psk
+config wlan apgroup interface-mapping add FLT-floor-3-apg 30 favoip
+config wlan apgroup interface-mapping add FLT-floor-3-apg 22 mchv_acc_ivpump
+config wlan apgroup interface-mapping add FLT-floor-3-apg 17 guest_go_nowhere
+config wlan apgroup interface-mapping add FLT-floor-3-apg 24 mchv_acc_wow
+config wlan apgroup interface-mapping add FLT-floor-3-apg 25 cast_nowhere
+config wlan apgroup add CEN-floor-1-apg
+config wlan apgroup interface-mapping add CEN-floor-1-apg 20 mc_famobile2
+config wlan apgroup interface-mapping add CEN-floor-1-apg 21 mc_famcd1
+config wlan apgroup interface-mapping add CEN-floor-1-apg 23 mchv_acc_clinical_psk
+config wlan apgroup interface-mapping add CEN-floor-1-apg 30 favoip
+config wlan apgroup interface-mapping add CEN-floor-1-apg 22 mchv_acc_ivpump
+config wlan apgroup interface-mapping add CEN-floor-1-apg 17 guest_go_nowhere
+config wlan apgroup interface-mapping add CEN-floor-1-apg 24 mchv_acc_wow
+config wlan apgroup interface-mapping add CEN-floor-1-apg 25 cast_nowhere
+config wlan apgroup add CEN-floor-2-apg
+config wlan apgroup interface-mapping add CEN-floor-2-apg 20 mc_famobile2
+config wlan apgroup interface-mapping add CEN-floor-2-apg 21 mc_famcd1
+config wlan apgroup interface-mapping add CEN-floor-2-apg 23 mchv_acc_clinical_psk
+config wlan apgroup interface-mapping add CEN-floor-2-apg 30 favoip
+config wlan apgroup interface-mapping add CEN-floor-2-apg 22 mchv_acc_ivpump
+config wlan apgroup interface-mapping add CEN-floor-2-apg 17 guest_go_nowhere
+config wlan apgroup interface-mapping add CEN-floor-2-apg 24 mchv_acc_wow
+config wlan apgroup interface-mapping add CEN-floor-2-apg 25 cast_nowhere
+config wlan apgroup add CEN-floor-3-apg
+config wlan apgroup interface-mapping add CEN-floor-3-apg 20 mc_famobile2
+config wlan apgroup interface-mapping add CEN-floor-3-apg 21 mc_famcd1
+config wlan apgroup interface-mapping add CEN-floor-3-apg 23 mchv_acc_clinical_psk
+config wlan apgroup interface-mapping add CEN-floor-3-apg 30 favoip
+config wlan apgroup interface-mapping add CEN-floor-3-apg 22 mchv_acc_ivpump
+config wlan apgroup interface-mapping add CEN-floor-3-apg 17 guest_go_nowhere
+config wlan apgroup interface-mapping add CEN-floor-3-apg 24 mchv_acc_wow
+config wlan apgroup interface-mapping add CEN-floor-3-apg 25 cast_nowhere
+config wlan apgroup add CEN-floor-4-apg
+config wlan apgroup interface-mapping add CEN-floor-4-apg 20 mc_famobile2
+config wlan apgroup interface-mapping add CEN-floor-4-apg 21 mc_famcd1
+config wlan apgroup interface-mapping add CEN-floor-4-apg 23 mchv_acc_clinical_psk
+config wlan apgroup interface-mapping add CEN-floor-4-apg 30 favoip
+config wlan apgroup interface-mapping add CEN-floor-4-apg 22 mchv_acc_ivpump
+config wlan apgroup interface-mapping add CEN-floor-4-apg 17 guest_go_nowhere
+config wlan apgroup interface-mapping add CEN-floor-4-apg 24 mchv_acc_wow
+config wlan apgroup interface-mapping add CEN-floor-4-apg 25 cast_nowhere
+config wlan apgroup add GPL-floor-2-apg
+config wlan apgroup interface-mapping add GPL-floor-2-apg 20 mc_famobile2
+config wlan apgroup interface-mapping add GPL-floor-2-apg 21 mc_famcd1
+config wlan apgroup interface-mapping add GPL-floor-2-apg 23 mchv_acc_clinical_psk
+config wlan apgroup interface-mapping add GPL-floor-2-apg 30 favoip
+config wlan apgroup interface-mapping add GPL-floor-2-apg 22 mchv_acc_ivpump
+config wlan apgroup interface-mapping add GPL-floor-2-apg 17 guest_go_nowhere
+config wlan apgroup interface-mapping add GPL-floor-2-apg 24 mchv_acc_wow
+config wlan apgroup interface-mapping add GPL-floor-2-apg 25 cast_nowhere
+config wlan apgroup add EPL-floor-1-apg
+config wlan apgroup interface-mapping add EPL-floor-1-apg 20 mc_famobile2
+config wlan apgroup interface-mapping add EPL-floor-1-apg 21 mc_famcd1
+config wlan apgroup interface-mapping add EPL-floor-1-apg 23 mchv_acc_clinical_psk
+config wlan apgroup interface-mapping add EPL-floor-1-apg 30 favoip
+config wlan apgroup interface-mapping add EPL-floor-1-apg 22 mchv_acc_ivpump
+config wlan apgroup interface-mapping add EPL-floor-1-apg 17 guest_go_nowhere
+config wlan apgroup interface-mapping add EPL-floor-1-apg 24 mchv_acc_wow
+config wlan apgroup interface-mapping add EPL-floor-1-apg 25 cast_nowhere
+config wlan apgroup add EPL-floor-2-apg
+config wlan apgroup interface-mapping add EPL-floor-2-apg 20 mc_famobile2
+config wlan apgroup interface-mapping add EPL-floor-2-apg 21 mc_famcd1
+config wlan apgroup interface-mapping add EPL-floor-2-apg 23 mchv_acc_clinical_psk
+config wlan apgroup interface-mapping add EPL-floor-2-apg 30 favoip
+config wlan apgroup interface-mapping add EPL-floor-2-apg 22 mchv_acc_ivpump
+config wlan apgroup interface-mapping add EPL-floor-2-apg 17 guest_go_nowhere
+config wlan apgroup interface-mapping add EPL-floor-2-apg 24 mchv_acc_wow
+config wlan apgroup interface-mapping add EPL-floor-2-apg 25 cast_nowhere
+config wlan apgroup add EPL-floor-3-apg
+config wlan apgroup interface-mapping add EPL-floor-3-apg 20 mc_famobile2
+config wlan apgroup interface-mapping add EPL-floor-3-apg 21 mc_famcd1
+config wlan apgroup interface-mapping add EPL-floor-3-apg 23 mchv_acc_clinical_psk
+config wlan apgroup interface-mapping add EPL-floor-3-apg 30 favoip
+config wlan apgroup interface-mapping add EPL-floor-3-apg 22 mchv_acc_ivpump
+config wlan apgroup interface-mapping add EPL-floor-3-apg 17 guest_go_nowhere
+config wlan apgroup interface-mapping add EPL-floor-3-apg 24 mchv_acc_wow
+config wlan apgroup interface-mapping add EPL-floor-3-apg 25 cast_nowhere
+config wlan apgroup add EPL-floor-4-apg
+config wlan apgroup interface-mapping add EPL-floor-4-apg 20 mc_famobile2
+config wlan apgroup interface-mapping add EPL-floor-4-apg 21 mc_famcd1
+config wlan apgroup interface-mapping add EPL-floor-4-apg 23 mchv_acc_clinical_psk
+config wlan apgroup interface-mapping add EPL-floor-4-apg 30 favoip
+config wlan apgroup interface-mapping add EPL-floor-4-apg 22 mchv_acc_ivpump
+config wlan apgroup interface-mapping add EPL-floor-4-apg 17 guest_go_nowhere
+config wlan apgroup interface-mapping add EPL-floor-4-apg 24 mchv_acc_wow
+config wlan apgroup interface-mapping add EPL-floor-4-apg 25 cast_nowhere
+config wlan apgroup add EPL-floor-5-apg
+config wlan apgroup interface-mapping add EPL-floor-5-apg 20 mc_famobile2
+config wlan apgroup interface-mapping add EPL-floor-5-apg 21 mc_famcd1
+config wlan apgroup interface-mapping add EPL-floor-5-apg 23 mchv_acc_clinical_psk
+config wlan apgroup interface-mapping add EPL-floor-5-apg 30 favoip
+config wlan apgroup interface-mapping add EPL-floor-5-apg 22 mchv_acc_ivpump
+config wlan apgroup interface-mapping add EPL-floor-5-apg 17 guest_go_nowhere
+config wlan apgroup interface-mapping add EPL-floor-5-apg 24 mchv_acc_wow
+config wlan apgroup interface-mapping add EPL-floor-5-apg 25 cast_nowhere
+config wlan apgroup add WPL-floor-1-apg
+config wlan apgroup interface-mapping add WPL-floor-1-apg 20 mc_famobile2
+config wlan apgroup interface-mapping add WPL-floor-1-apg 21 mc_famcd1
+config wlan apgroup interface-mapping add WPL-floor-1-apg 23 mchv_acc_clinical_psk
+config wlan apgroup interface-mapping add WPL-floor-1-apg 30 favoip
+config wlan apgroup interface-mapping add WPL-floor-1-apg 22 mchv_acc_ivpump
+config wlan apgroup interface-mapping add WPL-floor-1-apg 17 guest_go_nowhere
+config wlan apgroup interface-mapping add WPL-floor-1-apg 24 mchv_acc_wow
+config wlan apgroup interface-mapping add WPL-floor-1-apg 25 cast_nowhere
+config wlan apgroup add WPL-floor-2-apg
+config wlan apgroup interface-mapping add WPL-floor-2-apg 20 mc_famobile2
+config wlan apgroup interface-mapping add WPL-floor-2-apg 21 mc_famcd1
+config wlan apgroup interface-mapping add WPL-floor-2-apg 23 mchv_acc_clinical_psk
+config wlan apgroup interface-mapping add WPL-floor-2-apg 30 favoip
+config wlan apgroup interface-mapping add WPL-floor-2-apg 22 mchv_acc_ivpump
+config wlan apgroup interface-mapping add WPL-floor-2-apg 17 guest_go_nowhere
+config wlan apgroup interface-mapping add WPL-floor-2-apg 24 mchv_acc_wow
+config wlan apgroup interface-mapping add WPL-floor-2-apg 25 cast_nowhere
+config wlan apgroup add WPL-floor-3-apg
+config wlan apgroup interface-mapping add WPL-floor-3-apg 20 mc_famobile2
+config wlan apgroup interface-mapping add WPL-floor-3-apg 21 mc_famcd1
+config wlan apgroup interface-mapping add WPL-floor-3-apg 23 mchv_acc_clinical_psk
+config wlan apgroup interface-mapping add WPL-floor-3-apg 30 favoip
+config wlan apgroup interface-mapping add WPL-floor-3-apg 22 mchv_acc_ivpump
+config wlan apgroup interface-mapping add WPL-floor-3-apg 17 guest_go_nowhere
+config wlan apgroup interface-mapping add WPL-floor-3-apg 24 mchv_acc_wow
+config wlan apgroup interface-mapping add WPL-floor-3-apg 25 cast_nowhere
+config wlan apgroup add WPL-floor-4-apg
+config wlan apgroup interface-mapping add WPL-floor-4-apg 20 mc_famobile2
+config wlan apgroup interface-mapping add WPL-floor-4-apg 21 mc_famcd1
+config wlan apgroup interface-mapping add WPL-floor-4-apg 23 mchv_acc_clinical_psk
+config wlan apgroup interface-mapping add WPL-floor-4-apg 30 favoip
+config wlan apgroup interface-mapping add WPL-floor-4-apg 22 mchv_acc_ivpump
+config wlan apgroup interface-mapping add WPL-floor-4-apg 17 guest_go_nowhere
+config wlan apgroup interface-mapping add WPL-floor-4-apg 24 mchv_acc_wow
+config wlan apgroup interface-mapping add WPL-floor-4-apg 25 cast_nowhere
+config wlan apgroup add WPL-floor-5-apg
+config wlan apgroup interface-mapping add WPL-floor-5-apg 20 mc_famobile2
+config wlan apgroup interface-mapping add WPL-floor-5-apg 21 mc_famcd1
+config wlan apgroup interface-mapping add WPL-floor-5-apg 23 mchv_acc_clinical_psk
+config wlan apgroup interface-mapping add WPL-floor-5-apg 30 favoip
+config wlan apgroup interface-mapping add WPL-floor-5-apg 22 mchv_acc_ivpump
+config wlan apgroup interface-mapping add WPL-floor-5-apg 17 guest_go_nowhere
+config wlan apgroup interface-mapping add WPL-floor-5-apg 24 mchv_acc_wow
+config wlan apgroup interface-mapping add WPL-floor-5-apg 25 cast_nowhere
+config wlan apgroup add MPL-floor-1-apg
+config wlan apgroup interface-mapping add MPL-floor-1-apg 20 mc_famobile2
+config wlan apgroup interface-mapping add MPL-floor-1-apg 21 mc_famcd1
+config wlan apgroup interface-mapping add MPL-floor-1-apg 23 mchv_acc_clinical_psk
+config wlan apgroup interface-mapping add MPL-floor-1-apg 30 favoip
+config wlan apgroup interface-mapping add MPL-floor-1-apg 22 mchv_acc_ivpump
+config wlan apgroup interface-mapping add MPL-floor-1-apg 17 guest_go_nowhere
+config wlan apgroup interface-mapping add MPL-floor-1-apg 24 mchv_acc_wow
+config wlan apgroup interface-mapping add MPL-floor-1-apg 25 cast_nowhere
+config wlan apgroup add MPL-floor-2-apg
+config wlan apgroup interface-mapping add MPL-floor-2-apg 20 mc_famobile2
+config wlan apgroup interface-mapping add MPL-floor-2-apg 21 mc_famcd1
+config wlan apgroup interface-mapping add MPL-floor-2-apg 23 mchv_acc_clinical_psk
+config wlan apgroup interface-mapping add MPL-floor-2-apg 30 favoip
+config wlan apgroup interface-mapping add MPL-floor-2-apg 22 mchv_acc_ivpump
+config wlan apgroup interface-mapping add MPL-floor-2-apg 17 guest_go_nowhere
+config wlan apgroup interface-mapping add MPL-floor-2-apg 24 mchv_acc_wow
+config wlan apgroup interface-mapping add MPL-floor-2-apg 25 cast_nowhere
+config wlan apgroup add MPL-floor-3-apg
+config wlan apgroup interface-mapping add MPL-floor-3-apg 20 mc_famobile2
+config wlan apgroup interface-mapping add MPL-floor-3-apg 21 mc_famcd1
+config wlan apgroup interface-mapping add MPL-floor-3-apg 23 mchv_acc_clinical_psk
+config wlan apgroup interface-mapping add MPL-floor-3-apg 30 favoip
+config wlan apgroup interface-mapping add MPL-floor-3-apg 22 mchv_acc_ivpump
+config wlan apgroup interface-mapping add MPL-floor-3-apg 17 guest_go_nowhere
+config wlan apgroup interface-mapping add MPL-floor-3-apg 24 mchv_acc_wow
+config wlan apgroup interface-mapping add MPL-floor-3-apg 25 cast_nowhere
+config wlan apgroup add MPL-floor-4-apg
+config wlan apgroup interface-mapping add MPL-floor-4-apg 20 mc_famobile2
+config wlan apgroup interface-mapping add MPL-floor-4-apg 21 mc_famcd1
+config wlan apgroup interface-mapping add MPL-floor-4-apg 23 mchv_acc_clinical_psk
+config wlan apgroup interface-mapping add MPL-floor-4-apg 30 favoip
+config wlan apgroup interface-mapping add MPL-floor-4-apg 22 mchv_acc_ivpump
+config wlan apgroup interface-mapping add MPL-floor-4-apg 17 guest_go_nowhere
+config wlan apgroup interface-mapping add MPL-floor-4-apg 24 mchv_acc_wow
+config wlan apgroup interface-mapping add MPL-floor-4-apg 25 cast_nowhere
+config wlan apgroup add MPL-floor-5-apg
+config wlan apgroup interface-mapping add MPL-floor-5-apg 20 mc_famobile2
+config wlan apgroup interface-mapping add MPL-floor-5-apg 21 mc_famcd1
+config wlan apgroup interface-mapping add MPL-floor-5-apg 23 mchv_acc_clinical_psk
+config wlan apgroup interface-mapping add MPL-floor-5-apg 30 favoip
+config wlan apgroup interface-mapping add MPL-floor-5-apg 22 mchv_acc_ivpump
+config wlan apgroup interface-mapping add MPL-floor-5-apg 17 guest_go_nowhere
+config wlan apgroup interface-mapping add MPL-floor-5-apg 24 mchv_acc_wow
+config wlan apgroup interface-mapping add MPL-floor-5-apg 25 cast_nowhere
+config wlan apgroup add EDC-floor-2-apg
+config wlan apgroup interface-mapping add EDC-floor-2-apg 20 mc_famobile2
+config wlan apgroup interface-mapping add EDC-floor-2-apg 21 mc_famcd1
+config wlan apgroup interface-mapping add EDC-floor-2-apg 23 mchv_acc_clinical_psk
+config wlan apgroup interface-mapping add EDC-floor-2-apg 30 favoip
+config wlan apgroup interface-mapping add EDC-floor-2-apg 22 mchv_acc_ivpump
+config wlan apgroup interface-mapping add EDC-floor-2-apg 17 guest_go_nowhere
+config wlan apgroup interface-mapping add EDC-floor-2-apg 24 mchv_acc_wow
+config wlan apgroup interface-mapping add EDC-floor-2-apg 25 cast_nowhere
+config wlan apgroup profile-mapping add MCL-floor-0-apg MCL-floor-0-rf-802.11a 
+config wlan apgroup profile-mapping add MCL-floor-0-apg MCL-floor-0-rf-802.11bg 
+config wlan apgroup profile-mapping add MCL-floor-1-apg MCL-floor-1-rf-802.11a 
+config wlan apgroup profile-mapping add MCL-floor-1-apg MCL-floor-1-rf-802.11bg 
+config wlan apgroup profile-mapping add MCL-floor-2-apg MCL-floor-2-rf-802.11a 
+config wlan apgroup profile-mapping add MCL-floor-2-apg MCL-floor-2-rf-802.11bg 
+config wlan apgroup profile-mapping add MCL-floor-3-apg MCL-floor-3-rf-802.11a 
+config wlan apgroup profile-mapping add MCL-floor-3-apg MCL-floor-3-rf-802.11bg 
+config wlan apgroup profile-mapping add MCL-floor-4-apg MCL-floor-4-rf-802.11a 
+config wlan apgroup profile-mapping add MCL-floor-4-apg MCL-floor-4-rf-802.11bg 
+config wlan apgroup profile-mapping add MCL-floor-5-apg MCL-floor-5-rf-802.11a 
+config wlan apgroup profile-mapping add MCL-floor-5-apg MCL-floor-5-rf-802.11bg 
+config wlan apgroup profile-mapping add MCL-floor-6-apg MCL-floor-6-rf-802.11a 
+config wlan apgroup profile-mapping add MCL-floor-6-apg MCL-floor-6-rf-802.11bg 
+config wlan apgroup profile-mapping add MCL-floor-7-apg MCL-floor-7-rf-802.11a 
+config wlan apgroup profile-mapping add MCL-floor-7-apg MCL-floor-7-rf-802.11bg 
+config wlan apgroup profile-mapping add PTK-floor-0-apg PTK-floor-0-rf-802.11a 
+config wlan apgroup profile-mapping add PTK-floor-0-apg PTK-floor-0-rf-802.11bg 
+config wlan apgroup profile-mapping add PTK-floor-1-apg PTK-floor-1-rf-802.11a 
+config wlan apgroup profile-mapping add PTK-floor-1-apg PTK-floor-1-rf-802.11bg 
+config wlan apgroup profile-mapping add PTK-floor-2-apg PTK-floor-2-rf-802.11a 
+config wlan apgroup profile-mapping add PTK-floor-2-apg PTK-floor-2-rf-802.11bg 
+config wlan apgroup profile-mapping add PTK-floor-3-apg PTK-floor-3-rf-802.11a 
+config wlan apgroup profile-mapping add PTK-floor-3-apg PTK-floor-3-rf-802.11bg 
+config wlan apgroup profile-mapping add PTK-floor-4-apg PTK-floor-4-rf-802.11a 
+config wlan apgroup profile-mapping add PTK-floor-4-apg PTK-floor-4-rf-802.11bg 
+config wlan apgroup profile-mapping add PTK-floor-5-apg PTK-floor-5-rf-802.11a 
+config wlan apgroup profile-mapping add PTK-floor-5-apg PTK-floor-5-rf-802.11bg 
+config wlan apgroup profile-mapping add PTK-floor-6-apg PTK-floor-6-rf-802.11a 
+config wlan apgroup profile-mapping add PTK-floor-6-apg PTK-floor-6-rf-802.11bg 
+config wlan apgroup profile-mapping add SMT-floor-0-apg SMT-floor-0-rf-802.11a 
+config wlan apgroup profile-mapping add SMT-floor-0-apg SMT-floor-0-rf-802.11bg 
+config wlan apgroup profile-mapping add SMT-floor-1-apg SMT-floor-1-rf-802.11a 
+config wlan apgroup profile-mapping add SMT-floor-1-apg SMT-floor-1-rf-802.11bg 
+config wlan apgroup profile-mapping add SMT-floor-2-apg SMT-floor-2-rf-802.11a 
+config wlan apgroup profile-mapping add SMT-floor-2-apg SMT-floor-2-rf-802.11bg 
+config wlan apgroup profile-mapping add SMT-floor-3-apg SMT-floor-3-rf-802.11a 
+config wlan apgroup profile-mapping add SMT-floor-3-apg SMT-floor-3-rf-802.11bg 
+config wlan apgroup profile-mapping add SMT-floor-4-apg SMT-floor-4-rf-802.11a 
+config wlan apgroup profile-mapping add SMT-floor-4-apg SMT-floor-4-rf-802.11bg 
+config wlan apgroup profile-mapping add SMT-floor-5-apg SMT-floor-5-rf-802.11a 
+config wlan apgroup profile-mapping add SMT-floor-5-apg SMT-floor-5-rf-802.11bg 
+config wlan apgroup profile-mapping add BRD-floor-1-apg BRD-floor-1-rf-802.11a 
+config wlan apgroup profile-mapping add BRD-floor-1-apg BRD-floor-1-rf-802.11bg 
+config wlan apgroup profile-mapping add BRD-floor-2-apg BRD-floor-2-rf-802.11a 
+config wlan apgroup profile-mapping add BRD-floor-2-apg BRD-floor-2-rf-802.11bg 
+config wlan apgroup profile-mapping add BRD-floor-3-apg BRD-floor-3-rf-802.11a 
+config wlan apgroup profile-mapping add BRD-floor-3-apg BRD-floor-3-rf-802.11bg 
+config wlan apgroup profile-mapping add BRD-floor-4-apg BRD-floor-4-rf-802.11a 
+config wlan apgroup profile-mapping add BRD-floor-4-apg BRD-floor-4-rf-802.11bg 
+config wlan apgroup profile-mapping add BRD-floor-5-apg BRD-floor-5-rf-802.11a 
+config wlan apgroup profile-mapping add BRD-floor-5-apg BRD-floor-5-rf-802.11bg 
+config wlan apgroup profile-mapping add BRD-floor-6-apg BRD-floor-6-rf-802.11a 
+config wlan apgroup profile-mapping add BRD-floor-6-apg BRD-floor-6-rf-802.11bg 
+config wlan apgroup profile-mapping add BRD-floor-7-apg BRD-floor-7-rf-802.11a 
+config wlan apgroup profile-mapping add BRD-floor-7-apg BRD-floor-7-rf-802.11bg 
+config wlan apgroup profile-mapping add SHP-floor-1-apg SHP-floor-1-rf-802.11a 
+config wlan apgroup profile-mapping add SHP-floor-1-apg SHP-floor-1-rf-802.11bg 
+config wlan apgroup profile-mapping add SHP-floor-2-apg SHP-floor-2-rf-802.11a 
+config wlan apgroup profile-mapping add SHP-floor-2-apg SHP-floor-2-rf-802.11bg 
+config wlan apgroup profile-mapping add SHP-floor-3-apg SHP-floor-3-rf-802.11a 
+config wlan apgroup profile-mapping add SHP-floor-3-apg SHP-floor-3-rf-802.11bg 
+config wlan apgroup profile-mapping add SHP-floor-4-apg SHP-floor-4-rf-802.11a 
+config wlan apgroup profile-mapping add SHP-floor-4-apg SHP-floor-4-rf-802.11bg 
+config wlan apgroup profile-mapping add SHP-floor-5-apg SHP-floor-5-rf-802.11a 
+config wlan apgroup profile-mapping add SHP-floor-5-apg SHP-floor-5-rf-802.11bg 
+config wlan apgroup profile-mapping add SHP-floor-6-apg SHP-floor-6-rf-802.11a 
+config wlan apgroup profile-mapping add SHP-floor-6-apg SHP-floor-6-rf-802.11bg 
+config wlan apgroup profile-mapping add FLT-floor-1-apg FLT-floor-1-rf-802.11a 
+config wlan apgroup profile-mapping add FLT-floor-1-apg FLT-floor-1-rf-802.11bg 
+config wlan apgroup profile-mapping add FLT-floor-2-apg FLT-floor-2-rf-802.11a 
+config wlan apgroup profile-mapping add FLT-floor-2-apg FLT-floor-2-rf-802.11bg 
+config wlan apgroup profile-mapping add FLT-floor-3-apg FLT-floor-3-rf-802.11a 
+config wlan apgroup profile-mapping add FLT-floor-3-apg FLT-floor-3-rf-802.11bg 
+config wlan apgroup profile-mapping add CEN-floor-1-apg CEN-floor-1-rf-802.11a 
+config wlan apgroup profile-mapping add CEN-floor-1-apg CEN-floor-1-rf-802.11bg 
+config wlan apgroup profile-mapping add CEN-floor-2-apg CEN-floor-2-rf-802.11a 
+config wlan apgroup profile-mapping add CEN-floor-2-apg CEN-floor-2-rf-802.11bg 
+config wlan apgroup profile-mapping add CEN-floor-3-apg CEN-floor-3-rf-802.11a 
+config wlan apgroup profile-mapping add CEN-floor-3-apg CEN-floor-3-rf-802.11bg 
+config wlan apgroup profile-mapping add CEN-floor-4-apg CEN-floor-4-rf-802.11a 
+config wlan apgroup profile-mapping add CEN-floor-4-apg CEN-floor-4-rf-802.11bg 
+config wlan apgroup profile-mapping add GPL-floor-2-apg GPL-floor-2-rf-802.11a 
+config wlan apgroup profile-mapping add GPL-floor-2-apg GPL-floor-2-rf-802.11bg 
+config wlan apgroup profile-mapping add EPL-floor-1-apg EPL-floor-1-rf-802.11a 
+config wlan apgroup profile-mapping add EPL-floor-1-apg EPL-floor-1-rf-802.11bg 
+config wlan apgroup profile-mapping add EPL-floor-2-apg EPL-floor-2-rf-802.11a 
+config wlan apgroup profile-mapping add EPL-floor-2-apg EPL-floor-2-rf-802.11bg 
+config wlan apgroup profile-mapping add EPL-floor-3-apg EPL-floor-3-rf-802.11a 
+config wlan apgroup profile-mapping add EPL-floor-3-apg EPL-floor-3-rf-802.11bg 
+config wlan apgroup profile-mapping add EPL-floor-4-apg EPL-floor-4-rf-802.11a 
+config wlan apgroup profile-mapping add EPL-floor-4-apg EPL-floor-4-rf-802.11bg 
+config wlan apgroup profile-mapping add EPL-floor-5-apg EPL-floor-5-rf-802.11a 
+config wlan apgroup profile-mapping add EPL-floor-5-apg EPL-floor-5-rf-802.11bg 
+config wlan apgroup profile-mapping add WPL-floor-1-apg WPL-floor-1-rf-802.11a 
+config wlan apgroup profile-mapping add WPL-floor-1-apg WPL-floor-1-rf-802.11bg 
+config wlan apgroup profile-mapping add WPL-floor-2-apg WPL-floor-2-rf-802.11a 
+config wlan apgroup profile-mapping add WPL-floor-2-apg WPL-floor-2-rf-802.11bg 
+config wlan apgroup profile-mapping add WPL-floor-3-apg WPL-floor-3-rf-802.11a 
+config wlan apgroup profile-mapping add WPL-floor-3-apg WPL-floor-3-rf-802.11bg 
+config wlan apgroup profile-mapping add WPL-floor-4-apg WPL-floor-4-rf-802.11a 
+config wlan apgroup profile-mapping add WPL-floor-4-apg WPL-floor-4-rf-802.11bg 
+config wlan apgroup profile-mapping add WPL-floor-5-apg WPL-floor-5-rf-802.11a 
+config wlan apgroup profile-mapping add WPL-floor-5-apg WPL-floor-5-rf-802.11bg 
+config wlan apgroup profile-mapping add MPL-floor-1-apg MPL-floor-1-rf-802.11a 
+config wlan apgroup profile-mapping add MPL-floor-1-apg MPL-floor-1-rf-802.11bg 
+config wlan apgroup profile-mapping add MPL-floor-2-apg MPL-floor-2-rf-802.11a 
+config wlan apgroup profile-mapping add MPL-floor-2-apg MPL-floor-2-rf-802.11bg 
+config wlan apgroup profile-mapping add MPL-floor-3-apg MPL-floor-3-rf-802.11a 
+config wlan apgroup profile-mapping add MPL-floor-3-apg MPL-floor-3-rf-802.11bg 
+config wlan apgroup profile-mapping add MPL-floor-4-apg MPL-floor-4-rf-802.11a 
+config wlan apgroup profile-mapping add MPL-floor-4-apg MPL-floor-4-rf-802.11bg 
+config wlan apgroup profile-mapping add MPL-floor-5-apg MPL-floor-5-rf-802.11a 
+config wlan apgroup profile-mapping add MPL-floor-5-apg MPL-floor-5-rf-802.11bg 
+config wlan apgroup profile-mapping add EDC-floor-2-apg EDC-floor-2-rf-802.11a 
+config wlan apgroup profile-mapping add EDC-floor-2-apg EDC-floor-2-rf-802.11bg 

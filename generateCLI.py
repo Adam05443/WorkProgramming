@@ -1,5 +1,4 @@
-
-
+import re
 
 #creates a range of floors for each building 
 def build_floors(low,high): 
@@ -33,6 +32,11 @@ def generate_rf_profile_b(floor_num,bld_abbr):
 		rf_profile_b.append("%s-floor-%s-rf-802.11bg" %(bld_abbr,y))
 	return rf_profile_b
 
+def generate_ap_group(floor_num,bld_abbr):
+	ap_group = []
+	for y in floor_num:
+		ap_group.append("%s-floor-%s-apg" %(bld_abbr,y))
+	return ap_group
 	
 #feed the build_floors() the number of floors each building has. Build a list for it. 
 McClure_Floors = build_floors(0,7)
@@ -51,7 +55,7 @@ Education_Floors = build_floors(2,2)
 #creates two empty lists
 rf_profile_list_a = []
 rf_profile_list_b = []
-
+ap_group_list = [] 
 #passes the building abbr and the floor number into the generate_rf_profile() 
 rf_profile_list_a.append(generate_rf_profile_a(McClure_Floors,bld_abbr[0]))
 rf_profile_list_a.append(generate_rf_profile_a(Patrick_Floors,bld_abbr[1]))
@@ -80,6 +84,21 @@ rf_profile_list_b.append(generate_rf_profile_b(West_Floors,bld_abbr[9]))
 rf_profile_list_b.append(generate_rf_profile_b(Middle_Floors,bld_abbr[10]))
 rf_profile_list_b.append(generate_rf_profile_b(Education_Floors,bld_abbr[11]))
 
+#passes the building abbr and the floor number into the ap_groups() 
+ap_group_list.append(generate_ap_group(McClure_Floors,bld_abbr[0]))
+ap_group_list.append(generate_ap_group(Patrick_Floors,bld_abbr[1]))
+ap_group_list.append(generate_ap_group(Smith_Floors,bld_abbr[2]))
+ap_group_list.append(generate_ap_group(Baird_Floors,bld_abbr[3]))
+ap_group_list.append(generate_ap_group(Shep_Floors,bld_abbr[4]))
+ap_group_list.append(generate_ap_group(Fletcher_Floors,bld_abbr[5]))
+ap_group_list.append(generate_ap_group(Engineering_Floors,bld_abbr[6]))
+ap_group_list.append(generate_ap_group(Garden_Floors,bld_abbr[7]))
+ap_group_list.append(generate_ap_group(East_Floors,bld_abbr[8]))
+ap_group_list.append(generate_ap_group(West_Floors,bld_abbr[9]))
+ap_group_list.append(generate_ap_group(Middle_Floors,bld_abbr[10]))
+ap_group_list.append(generate_ap_group(Education_Floors,bld_abbr[11]))
+
+
 #some random stuff I stole from the Internet to strip out some formatting
 translation_table = dict.fromkeys(map(ord, '[]'), None)
 
@@ -88,12 +107,20 @@ clean_a = []
 for line in rf_profile_list_a:
 	for line2 in line:
 		clean_a.append(line2.translate(translation_table))
+		
 clean_b = []
 for line in rf_profile_list_b:
 	for line2 in line:
 		clean_b.append(line2.translate(translation_table))
 
+clean_ap_group = []
+for line in ap_group_list:
+	for line2 in line:
+		clean_ap_group.append(line2.translate(translation_table))
+
+
 #iterates back through the clean list and generates this cli code 
+print("!!!!!!!!!!!!!!!!!!!!!!!802.11a RF profiles!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
 for i in clean_a:
 	print("config rf-profile create 802.11a %s" %(i))
 	print("config rf-profile description %s" %(i))
@@ -109,6 +136,7 @@ for i in clean_a:
 	print("config rf-profile coverage data -70  %s" %(i))
 	print("config rf-profile coverage voice -65  %s" %(i))
 	
+print("!!!!!!!!!!!!!!!!!!!!!!!802.11bg RF profiles!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
 for i in clean_b:
 	print("config rf-profile create 802.11a %s" %(i))
 	print("config rf-profile description %s" %(i))
@@ -123,3 +151,22 @@ for i in clean_b:
 	print("config rf-profile tx-power-min 10 %s" %(i))
 	print("config rf-profile coverage data -70  %s" %(i))
 	print("config rf-profile coverage voice -65  %s" %(i))
+	
+print("!!!!!!!!!!!!!!!!!!!!!!!access-point-groups!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
+for i in clean_ap_group:
+	print("config wlan apgroup add %s" %(i))
+	print("config wlan apgroup interface-mapping add %s 20 mc_famobile2" %(i))
+	print("config wlan apgroup interface-mapping add %s 21 mc_famcd1" %(i))
+	print("config wlan apgroup interface-mapping add %s 23 mchv_acc_clinical_psk" %(i))
+	print("config wlan apgroup interface-mapping add %s 30 favoip" %(i))
+	print("config wlan apgroup interface-mapping add %s 22 mchv_acc_ivpump" %(i))
+	print("config wlan apgroup interface-mapping add %s 17 guest_go_nowhere" %(i))
+	print("config wlan apgroup interface-mapping add %s 24 mchv_acc_wow" %(i))
+	print("config wlan apgroup interface-mapping add %s 25 cast_nowhere" %(i))
+
+generate_mappings = []
+for i in clean_ap_group:
+	generate_mappings = i.split("-")
+	print("config wlan apgroup profile-mapping add %s %s-%s-%s-rf-802.11a " %(i,generate_mappings[0],generate_mappings[1],generate_mappings[2]))
+	print("config wlan apgroup profile-mapping add %s %s-%s-%s-rf-802.11bg " %(i,generate_mappings[0],generate_mappings[1],generate_mappings[2]))
+	generate_mappings.clear()
